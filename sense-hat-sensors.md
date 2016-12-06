@@ -1,6 +1,6 @@
 # Sense HAT
 
-## Test the sensors
+## Test the Sense HAT
 
 1. Open Python 3 and enter the following commands directly into the shell:
 
@@ -25,6 +25,8 @@
 
     When you press Enter, you will see the sensor's value.
 
+## Faces
+
 1. Open a new window and type:
 
     ```python
@@ -46,7 +48,9 @@
     sense.set_pixels(happy)
     ```
 
-1. Run the code with `F5` and you should see a sad face, a normal face and a sad face.
+1. Run the code with `F5` and you should see a sad face, a normal face and a happy face appear.
+
+## And breathe...
 
 1. Replace the last 5 lines with:
 
