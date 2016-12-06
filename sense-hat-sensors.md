@@ -36,11 +36,6 @@
 
     sense = SenseHat()
 
-    e = (0, 0, 0)  # empty
-    r = (255, 0, 0)  # red
-    b = (0, 255, 0)  # blue
-    b = (0, 0, 255)  # green
-
     sense.set_pixels(sad)
     sleep(1)
     sense.set_pixels(normal)
