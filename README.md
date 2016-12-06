@@ -11,4 +11,4 @@ Short worksheets for small activities for use at Raspberry Jams.
     - [Traffic Lights](traffic-lights.md)
     - [Push button camera](push-button-camera.md)
 - Minecraft
-    - [Minecraft](minecraft.md)
+    - [Minecraft TNT](minecraft-tnt.md)
