@@ -9,6 +9,6 @@ Short worksheets for small activities for use at Raspberry Jams.
     - [Sensors](sense-hat-sensors.md)
 - GPIO / Picamera
     - [Traffic Lights](traffic-lights.md)
-    - [Push button camera](push-button-camera.md)
+    - [Stop motion animation](stop-motion-animation.md)
 - Minecraft
     - [Minecraft TNT](minecraft-tnt.md)
