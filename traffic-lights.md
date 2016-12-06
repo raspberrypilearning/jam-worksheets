@@ -1,101 +1,74 @@
 # Traffic lights
 
-![GPIO diagram](images/camjam1wiring.png)
-
 | Component | GPIO pin |
 | --------- | :------: |
-| Button    | 21       |
-| Red LED   | 25       |
-| Amber LED | 8        |
-| Green LED | 7        |
-| Buzzer    | 15       |
+| Button    | 25       |
+| Red LED   | 24       |
+| Amber LED | 23       |
+| Green LED | 22       |
+| Buzzer    | 5        |
 
-## Button
+## GPIO components
 
-1. Open Python 3, open a new file.
+1. Open Python 3 from the main menu, and open a new file.
+
+1. Enter the following code:
 
     ```python
-    from gpiozero import Button
+    from gpiozero import LED, Button
 
-    button = Button(21)
+    led = LED(22)
+    button = Button(25)
 
     while True:
         if button.is_pressed:
-            print("Pressed")
+            led.on()
         else:
-            print("Released")
+            led.off()
     ```
 
-1. Save and run: `Ctrl + S` and `F5`.
+1. Run your code with `F5`. Now when you press the button, the green LED will come on.
 
-1. Modify the loop:
+1. Try creating three LEDs:
+
+    ```python
+    from gpiozero import LED, Button
+
+    red = LED(24)
+    amber = LED(23)
+    green = LED(22)
+
+    button = Button(25)
+    ```
+
+1. Get them to come on when the button is pressed:
 
     ```python
     while True:
-        button.wait_for_press()
-        print("Hello")
-        button.wait_for_release()
-        print("Goodbye")
+        if button.is_pressed:
+            green.on()
+            amber.on()
+            red.on()
+        else:
+            green.off()
+            amber.off()
+            red.off()
     ```
 
-## Add an LED
-
-1. Add an LED:
-
-    ```python
-    from gpiozero import Button, LED
-
-    button = Button(21)
-    led = LED(25)
-
-    while True:
-        button.wait_for_press()
-        led.on()
-        button.wait_for_release()
-        led.off()
-    ```
-
-1. Run your code and the LED will come on when you press the button. Hold the button down to keep the LED lit.
-
-1. Now swap the `on` and `off` lines to reverse the logic:
-
-    ```python
-    while True:
-        led.on()
-        button.wait_for_press()
-        led.off()
-        button.wait_for_release()
-    ```
-
-1. Run the code and you'll see the LED stays on until the button is pressed.
-
-1. Now replace `led.on()` with `led.blink()`:
-
-    ```python
-    while True:
-        led.blink()
-        button.wait_for_press()
-        led.off()
-        button.wait_for_release()
-    ```
+1. Run the code and press the button.
 
 ## Traffic lights
+
+You can use the built-in `TrafficLights` interface instead of three LEDs.
 
 1. Amend the `from gpiozero import...` line to replace `LED` with `TrafficLights`:
 
     ```python
-    from gpiozero import Button, TrafficLights
-    ```
+    from gpiozero import TrafficLights, Button
 
-1. Replace your `led = LED(25)` line with the following:
+    button = Button(25)
+    lights = TrafficLights(24, 23, 22)
 
-    ```python
-    lights = TrafficLights(25, 8, 7)
-    ```
-
-1. Now amend your `while` loop to control the `TrafficLights` object:
-
-    ```python
     while True:
         button.wait_for_press()
         lights.on()
@@ -103,65 +76,19 @@
         lights.off()
     ```
 
-1. Try the `blink` example:
+1. Try changing the lights to `blink`:
 
     ```python
     while True:
         lights.blink()
         button.wait_for_press()
         lights.off()
-        button.wait_for_release()
-    ```
-
-## Add a buzzer
-
-Now you'll add your buzzer to make some noise.
-
-1. Add `Buzzer` to the `from gpiozero import...` line:
-
-    ```python
-    from gpiozero import Button, TrafficLights, Buzzer
-    ```
-
-1. Add a line below your creation of `button` and `lights` to add a `Buzzer` object:
-
-    ```python
-    buzzer = Buzzer(15)
-    ```
-
-1. `Buzzer` works exactly like `LED`, so try adding a `buzzer.on()` and `buzzer.off()` into your loop:
-
-    ```python
-    while True:
-        lights.on()
-        buzzer.off()
-        button.wait_for_press()
-        lights.off()
-        buzzer.on()
-        button.wait_for_release()
-    ```
-
-1. `Buzzer` has a `beep()` method which works like `LED`'s `blink`. Try it out:
-
-    ```python
-    while True:
-        lights.blink()
-        buzzer.beep()
-        button.wait_for_press()
-        lights.off()
-        buzzer.off()
         button.wait_for_release()
     ```
 
 ## Traffic lights sequence
 
 As well as controlling the whole set of lights together, you can also control each LED individually. With traffic light LEDs, a button and a buzzer, you can create your own traffic lights sequence, complete with pedestrian crossing!
-
-1. At the top of your file, below `from gpiozero import...`, add a line to import the `sleep` function:
-
-    ```python
-    from time import sleep
-    ```
 
 1. Modify your loop to perform an automated sequence of LEDs being lit:
 
