@@ -65,6 +65,7 @@ You can use the built-in `TrafficLights` interface instead of three LEDs.
 
     ```python
     from gpiozero import TrafficLights, Button
+    from time import sleep
 
     button = Button(25)
     lights = TrafficLights(24, 23, 22)
