@@ -1,15 +1,27 @@
 # Raspberry Jam worksheets
 
-Short worksheets for small activities for use at Raspberry Jams.
+Short worksheets for small activities for use at Raspberry Jams. All resources [CC BY-SA Raspberry Pi Foundation](https://github.com/raspberrypilearning/jam-worksheets/blob/master/LICENCE.md).
+
+Edit these on [GitHub](https://github.com/raspberrypilearning/jam-worksheets) and browse them at [raspberrypilearning.github.io/jam-worksheets](https://raspberrypilearning.github.io/jam-worksheets/).
 
 ## Contents
 
-- Sense HAT
-    - [Random Sparkles](random-sparkles.md)
-    - [Sensors](sense-hat-sensors.md)
-- GPIO / Picamera
-    - [Traffic Lights](traffic-lights.md)
-    - [Stop motion animation](stop-motion-animation.md)
-- Minecraft
-    - [Minecraft TNT](minecraft-tnt.md)
-    
+### Sense HAT
+
+- [Random Sparkles](random-sparkles.md)
+- [Sensors](sense-hat-sensors.md)
+
+### GPIO / Picamera
+
+- [Traffic Lights](traffic-lights.md)
+- [Stop motion animation](stop-motion-animation.md)
+
+### Minecraft
+
+- [Minecraft TNT](minecraft-tnt.md)
+- [Minecraft Beats](minecraft-beats.md)
+
+## Links
+
+- [Raspberry Pi resources](https://www.raspberrypi.org/resources/)
+- [Raspberry Pi Learning on GitHub](https://github.com/raspberrypilearning)
