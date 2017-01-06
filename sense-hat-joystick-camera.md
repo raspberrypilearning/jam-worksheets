@@ -1,4 +1,4 @@
-# Stop Motion Animation
+# Sense HAT Joystick Camera
 
 ## Push button camera
 
