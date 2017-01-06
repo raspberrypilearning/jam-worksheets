@@ -10,6 +10,7 @@ Edit these on [GitHub](https://github.com/raspberrypilearning/jam-worksheets) an
 
 - [Random Sparkles](random-sparkles.md)
 - [Sensors](sense-hat-sensors.md)
+- [Sense HAT Joystick camera](sense-hat-joystick-camera.md)
 
 ### GPIO / Picamera
 
