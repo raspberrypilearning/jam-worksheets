@@ -1,35 +1,38 @@
 e = (0, 0, 0)  # empty
-r = (255, 0, 0)  # red
-b = (0, 255, 0)  # blue
-b = (0, 0, 255)  # green
+red = (255, 0, 0)  # red
+green = (0, 255, 0)  # green
+blue = (0, 0, 255)  # blue
 
+c = blue
 normal = [
     e, e, e, e, e, e, e, e,
     e, e, e, e, e, e, e, e,
-    e, e, r, e, e, r, e, e,
+    e, e, c, e, e, c, e, e,
     e, e, e, e, e, e, e, e,
     e, e, e, e, e, e, e, e,
-    e, r, r, r, r, r, r, e,
+    e, c, c, c, c, c, c, e,
     e, e, e, e, e, e, e, e,
     e, e, e, e, e, e, e, e,
 ]
+c = green
 happy = [
     e, e, e, e, e, e, e, e,
     e, e, e, e, e, e, e, e,
-    e, e, r, e, e, r, e, e,
+    e, e, c, e, e, c, e, e,
     e, e, e, e, e, e, e, e,
     e, e, e, e, e, e, e, e,
-    e, r, e, e, e, e, r, e,
-    e, r, r, r, r, r, r, e,
+    e, c, e, e, e, e, c, e,
+    e, c, c, c, c, c, c, e,
     e, e, e, e, e, e, e, e,
 ]
+c = red
 sad = [
     e, e, e, e, e, e, e, e,
     e, e, e, e, e, e, e, e,
-    e, e, r, e, e, r, e, e,
+    e, e, c, e, e, c, e, e,
     e, e, e, e, e, e, e, e,
     e, e, e, e, e, e, e, e,
-    e, r, r, r, r, r, r, e,
-    e, r, e, e, e, e, r, e,
+    e, c, c, c, c, c, c, e,
+    e, c, e, e, e, e, c, e,
     e, e, e, e, e, e, e, e,
 ]
