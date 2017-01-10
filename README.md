@@ -16,6 +16,7 @@ Edit these on [GitHub](https://github.com/raspberrypilearning/jam-worksheets) an
 
 - [Traffic Lights](traffic-lights.md)
 - [Stop motion animation](stop-motion-animation.md)
+- [Push button camera](push-button-camera.md)
 
 ### Minecraft
 
