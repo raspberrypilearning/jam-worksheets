@@ -6,13 +6,13 @@ Edit these on [GitHub](https://github.com/raspberrypilearning/jam-worksheets) an
 
 ## Contents
 
-- [Random Sparkles](random-sparkles/README.md)
-- [Sensors](sense-hat-sensors/README.md)
-- [Traffic Lights](traffic-lights/README.md)
-- [Stop motion animation](stop-motion-animation/README.md)
-- [Push button camera](push-button-camera/README.md)
-- [Minecraft TNT](minecraft-tnt/README.md)
+- [GPIO Music Box](gpio-music-box/README.md)
 - [Minecraft Beats](minecraft-beats/README.md)
+- [Minecraft TNT](minecraft-tnt/README.md)
+- [Push button camera](push-button-camera/README.md)
+- [Random Sparkles](random-sparkles/README.md)
+- [Sense HAT Sensors](sense-hat-sensors/README.md)
+- [Traffic Lights](traffic-lights/README.md)
 
 ## Links
 
