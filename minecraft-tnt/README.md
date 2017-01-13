@@ -1,4 +1,4 @@
-## Minecraft TNT
+# Minecraft TNT
 
 ## Variations
 
