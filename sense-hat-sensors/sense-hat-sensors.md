@@ -1,8 +1,10 @@
-# Sense HAT
+# Sense HAT Sensors
 
 ## Test the Sense HAT
 
 1. Open Python 3 and enter the following commands directly into the shell:
+
+    (do not type the chevrons `>>>`)
 
     ```python
     >>> from sense_hat import SenseHat
@@ -50,11 +52,13 @@
 1. Replace the last 5 lines with:
 
     ```python
+    start_humidity = sense.humidity
+
     while True:
         print(sense.humidity)
-        if sense.humidity > 60:
+        if sense.humidity > start_humidity + 10:
             sense.set_pixels(happy)
-        elif sense.humidity > 40:
+        elif sense.humidity > start_humidity + 5:
             sense.set_pixels(normal)
         else:
             sense.set_pixels(sad)
