@@ -13,6 +13,7 @@ Edit these on [GitHub](https://github.com/raspberrypilearning/jam-worksheets) an
 - [Random Sparkles](random-sparkles/README.md)
 - [Sense HAT Sensors](sense-hat-sensors/README.md)
 - [Traffic Lights](traffic-lights/README.md)
+- [Traffic Lights controller](traffic-lights-controller/README.md)
 
 ## Links
 
