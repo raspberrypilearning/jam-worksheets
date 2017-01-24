@@ -41,7 +41,7 @@
 1. Add a line to set the output path, and to save a captured image:
 
     ```python
-    output = '/home/pi/image.jpg'
+    output = '/home/pi/image.png'
 
     camera.start_preview()
     camera.hflip = True
@@ -60,13 +60,13 @@
 
     ```python
     from picamera import PiCamera
-    from time import sleep
     from gpiozero import Button
+    from time import sleep
 
     camera = PiCamera()
     button = Button(16)
 
-    output = '/home/pi/image.jpg'
+    output = '/home/pi/image.png'
 
     camera.start_preview()
     camera.hflip = True
@@ -84,15 +84,15 @@
 
     ```python
     from picamera import PiCamera
-    from time import sleep
     from gpiozero import Button
+    from time import sleep
     from snapchat import *
 
     camera = PiCamera()
     camera.resolution = (1024, 768)
     button = Button(16)
 
-    output = '/home/pi/image.jpg'
+    output = '/home/pi/image.png'
     overlay = 'flowers'
 
     camera.start_preview()
@@ -115,8 +115,8 @@
     ```python
 	from picamera import PiCamera
 	from gpiozero import Button
-	from snapchat import *
 	from time import sleep
+	from snapchat import *
 
 	camera = PiCamera()
 	camera.resolution = (1024, 768)
