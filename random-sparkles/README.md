@@ -2,7 +2,7 @@
 
 ## Variations
 
-- [GPIO button](random-sparkles.md)
+- [Random sparkles](random-sparkles.md)
 
 ## Preparation
 
