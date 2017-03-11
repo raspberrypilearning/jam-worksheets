@@ -2,7 +2,7 @@
 
 Short worksheets for small activities for use at Raspberry Jams. All resources [CC BY-SA Raspberry Pi Foundation](https://github.com/raspberrypilearning/jam-worksheets/blob/master/LICENCE.md).
 
-Edit these on [GitHub](https://github.com/raspberrypilearning/jam-worksheets) and browse them at [raspberrypilearning.github.io/jam-worksheets](https://raspberrypilearning.github.io/jam-worksheets/).
+Edit these on [GitHub](https://github.com/raspberrypilearning/jam-worksheets) and browse them at [raspberrypi.org/learning/jam-worksheets](https://www.raspberrypi.org/learning/jam-worksheets/).
 
 ## Contents
 
