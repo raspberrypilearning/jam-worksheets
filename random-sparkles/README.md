@@ -2,11 +2,12 @@
 
 ## Variations
 
-- [Random sparkles](random-sparkles.md)
+- [Random sparkles](sense-hat-random-sparkles.md) - uses the Sense HAT (hardware)
+- [Random sparkles (variations)](sense-hat-random-sparkles-variations.md) - can be used with Sense HAT (hardware), or the desktop or web-based emulator
 
 ## Preparation
 
-- Connect the Sense HAT to the Pi before booting up
+- If using the Sense HAT, connect it to the Pi before booting up
 
 ## Notes
 
