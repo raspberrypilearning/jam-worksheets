@@ -59,21 +59,6 @@ First, we'll think up some random numbers and use the `set_pixel` function to pl
     sense.set_pixel(x, y, r, g, b)
     ```
 
-1. Check over your code. It should look like this, with your own random numbers assigned to the variables:
-
-    ```python
-    from sense_hat import SenseHat
-
-    sense = SenseHat()
-
-    x = 4
-    y = 5
-    r = 19
-    g = 180
-    b = 230
-    sense.set_pixel(x, y, r, g, b)
-    ```
-
 1. Now run your code by pressing **F5**. You should see a single pixel light up.
 
 1. Now pick some new random numbers - change them all - and run the program again. A second pixel should appear on the display!
