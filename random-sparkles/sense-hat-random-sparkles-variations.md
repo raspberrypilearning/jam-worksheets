@@ -9,11 +9,11 @@ For this activity, you can either use the real Sense HAT hardware, the desktop e
 
 First, we'll think up some random numbers and use the `set_pixel` function to place a random colour on a random location on the Sense HAT display.
 
-1. If you're using the Open Python 3 and create a new file.
+1. If you're using a Raspberry Pi, open Python 3 and create a new file. If you're using the web emulator, delete the example code before you begin.
 
-1. In the new file, start by importing the Sense HAT module
+1. In the new file, start by importing the Sense HAT module.
 
-    If you're using the real Sense HAT or the Trinket emulator, the import line is:
+    If you're using a real Sense HAT or the Trinket emulator, the import line is:
 
     ```python
     from sense_hat import SenseHat
@@ -59,7 +59,7 @@ First, we'll think up some random numbers and use the `set_pixel` function to pl
     sense.set_pixel(x, y, r, g, b)
     ```
 
-1. Now run your code by pressing **F5**. You should see a single pixel light up.
+1. Now run your code by pressing **F5** (or the **Run** button in Trinket). You should see a single pixel light up.
 
 1. Now pick some new random numbers - change them all - and run the program again. A second pixel should appear on the display!
 
@@ -123,4 +123,4 @@ Rather than have to keep running your program, you can add a loop so that it wil
 
 1. Run the code and you should see random sparkles in action!
 
-1. Try changing the sleep time to make it even smaller (or remove it to make it go really fast).
+1. Try changing the sleep time to make it even smaller.
