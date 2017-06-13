@@ -26,7 +26,7 @@
 
 ## Multiple photos
 
-Now that you have successfully taken individual photographs with your camera, it's time to try combining a series of still images to make a stop motion animation.
+Now that you have successfully taken individual photographs with your camera, it's time to try combining a series of still images for a stop-motion animation.
 
 1. Modify your code to add a loop to keep taking pictures every time the joystick is pressed:
 
