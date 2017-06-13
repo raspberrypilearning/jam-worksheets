@@ -6,8 +6,8 @@
 
 ## Preparation
 
-- Wire up two buttons to GPIO2 and GPIO3
-- Make sure audio is correctly [configured](https://www.raspberrypi.org/documentation/configuration/audio-config.md) to headphones or HDMI
+- Wire up two buttons to GPIO2 and GPIO3.
+- Make sure audio is correctly [configured](https://www.raspberrypi.org/documentation/configuration/audio-config.md) to headphones or HDMI.
 
 ## Notes
 
