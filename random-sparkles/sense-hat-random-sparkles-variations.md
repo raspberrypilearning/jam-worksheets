@@ -1,6 +1,6 @@
 # Sense HAT Random Sparkles
 
-For this activity, you can either use the real Sense HAT hardware, the desktop emulator in Raspbian, or the web-based emulator on trinket.io
+For this activity, you can either use the real Sense HAT hardware, the desktop emulator in Raspbian, or the web-based emulator on Trinket.
 
 - If you're using the Sense HAT, attach it to your Raspberry Pi before booting.
 - If you're using the Trinket emulator, open a web browser and go to **trinket.io/sense-hat**
@@ -65,7 +65,7 @@ First, we'll think up some random numbers and use the `set_pixel` function to pl
 
 ## Using the random module
 
-So far you picked your own random numbers, but you can let the computer choose them instead.
+So far you've picked your own random numbers, but you can let the computer choose them instead.
 
 1. Add another `import` line at the top of your program, below `import SenseHat`:
 
@@ -123,4 +123,4 @@ Rather than have to keep running your program, you can add a loop so that it wil
 
 1. Run the code and you should see random sparkles in action!
 
-1. Try changing the sleep time to make it even smaller.
+1. Try changing the sleep time to make it even shorter.
