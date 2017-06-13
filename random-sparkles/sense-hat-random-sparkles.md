@@ -65,7 +65,7 @@ First, we'll think up some random numbers and use the `set_pixel` function to pl
 
 ## Using the random module
 
-So far you picked your own random numbers, but you can let the computer choose them instead.
+So far you've picked your own random numbers, but you can let the computer choose them instead.
 
 1. Add another `import` line at the top of your program, below `from sense_hat import SenseHat`:
 
