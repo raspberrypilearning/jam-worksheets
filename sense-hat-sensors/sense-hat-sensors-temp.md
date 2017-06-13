@@ -12,9 +12,9 @@
     >>> sense.show_message(“Hello world”)
     ```
 
-    Press Enter after each line, and after the third line, the message should appear on the Sense HAT's display.
+    Press `Enter` after each line, and after the third line, the message should appear on the Sense HAT's display.
 
-1. Now try retreiving the sensor values:
+1. Now try retrieving the sensor values:
 
     ```python
     >>> sense.temperature
@@ -22,7 +22,7 @@
     >>> sense.pressure
     ```
 
-    When you press Enter, you will see the sensor's value.
+    When you press `Enter`, you will see the sensor's value.
 
 ## Faces
 
