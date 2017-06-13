@@ -14,5 +14,5 @@
 ## Notes
 
 - Make sure users start in the IDLE shell, not a new file
-- They should not type the chevrons (`>>>`) - this is an indication that they should type into the shell
-- On the second step, they should move to a new Python file and save it and run
+- Users should not type the chevrons (`>>>`) - this is an indication that they should type into the shell
+- On the second step, users should move to a new Python file and save and run it
