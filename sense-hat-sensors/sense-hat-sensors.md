@@ -12,9 +12,9 @@
     >>> sense.show_message(“Hello world”)
     ```
 
-    Press Enter after each line, and after the third line, the message should appear on the Sense HAT's display.
+    Press `Enter` after each line. After the third line, the message 'Hello world' should appear on the Sense HAT's display.
 
-1. Now try retreiving the sensor values:
+1. Now try retrieving the sensor values:
 
     ```python
     >>> sense.temperature
@@ -25,7 +25,7 @@
     >>> sense.orientation
     ```
 
-    When you press Enter, you will see the sensor's value.
+    When you press `Enter`, you will see the sensor's value.
 
 ## Faces
 
@@ -45,11 +45,11 @@
     sense.set_pixels(happy)
     ```
 
-1. Run the code with `F5` and you should see a sad face, a normal face and a happy face appear.
+1. Run the code with `F5` and you should see a sad face, a normal face, and a happy face appear.
 
 ## And breathe...
 
-1. Replace the last 5 lines with:
+1. Replace the last five lines with:
 
     ```python
     start_humidity = sense.humidity
