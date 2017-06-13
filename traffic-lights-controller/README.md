@@ -18,7 +18,7 @@
 
 ## Notes
 
-- Be careful with capitalisation in Python!
+- Be careful with capitalisation in Python
 - Make sure the pins used are the same as in the code
 - Note that guizero is an new experimental library currently in beta - usage is likely to change as the library is developed
     - The current version of this worksheet uses guizero v0.2.1
