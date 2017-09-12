@@ -3,6 +3,7 @@
 ## Variations
 
 - [Minecraft TNT](minecraft-tnt.md)
+    - [PDF version](pdf/Minecraft-Worksheet.pdf)
 
 ## Notes
 
