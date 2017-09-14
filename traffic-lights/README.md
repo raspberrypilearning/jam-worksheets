@@ -3,6 +3,7 @@
 ## Variations
 
 - [pi-stop Traffic Lights](pi-stop-traffic-lights.md) - traffic lights only, using a pi-stop
+    - [PDF version](pdf/Controlling-a-traffic-lights-sequence-with-GPIO-Zero.pdf)
 - [Traffic Lights](traffic-lights.md) - traffic lights, button and buzzer - can be used with a breadboard or with the Traffic HAT
 
 ## Preparation
@@ -23,3 +24,6 @@ If following the full version, you'll need to either wire up components on a bre
 
 - Be careful with capitalisation in Python!
 - Check the correct pin numbers are used
+- Use a port label if you have one available:
+    - Buy one from http://rasp.io/portsplus/
+    - Print your own from https://github.com/splitbrain/rpibplusleaf

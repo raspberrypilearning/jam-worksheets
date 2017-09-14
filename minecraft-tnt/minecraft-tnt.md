@@ -33,13 +33,13 @@
 
 1. Run the code and you should see a block of stone appear near your player. If it's not in front of you, try looking around.
 
-1. Change the `setBlock` line from a `1` to a `2`:
+1. Change the `1` at the end of the `setBlock` line to a `2`:
 
     ```python
     mc.setBlock(x+1, y, z, 2)
     ```
 
-1. You should now see a block of grass appear. Try changing the number again and see which block gets placed.
+1. You should now see a block of grass appear. Try changing the number again and see what kind of block gets placed.
 
 1. Try changing `setBlock` to `setBlocks` to build a 10x10x10 cube rather than a single block:
 
@@ -53,7 +53,7 @@
 
 The block ID for TNT is `46`. There are two types of TNT: unexplosive TNt and explosive TNT. You want explosive TNT.
 
-1. Build a solid cube of TNt. To get explosive TNT, you need to add a `1` to the end of your `setBlocks` line:
+1. Build a solid cube of TNT. To get explosive TNT, you need to add a `1` to the end of your `setBlocks` line:
 
     ```python
     mc.setBlocks(x+1, y+1, z+1, x+11, y+11, z+11, 46, 1)

@@ -2,7 +2,7 @@
 
 ## Controlling the camera using Python
 
-1. Start by opening a Terminal window. Enter the following command, and press Enter:
+1. Start by opening a Terminal window. Enter the following command, and press `Enter`:
 
     ```bash
     raspistill -k
@@ -50,13 +50,13 @@
     camera.stop_preview()
     ```
 
-1. Run the code again - it should take a picture after 3 seconds.
+1. Run the code again - the camera should take a picture after 3 seconds.
 
 1. Now open the File Manager to see your picture.
 
 ## Use a button
 
-1. Now add a button into your code:
+1. Now add a button:
 
     ```python
     from picamera import PiCamera
@@ -76,7 +76,7 @@
     camera.stop_preview()
     ```
 
-1. Run the code - now it will wait for you to press the button before it takes the picture.
+1. Run the code - now the camera will wait for you to press the button before it takes the picture.
 
 ## Image overlays
 
@@ -106,9 +106,9 @@
     output_overlay(output, overlay)
     ```
 
-1. Run the code again - now it will add the `flowers` overlay to your preview, and to the captured image.
+1. Run the code again - now the `flowers` overlay will be added to your preview, and to the captured image.
 
-1. Try a different overlay! In the shell, enter `overlays` and press enter to see what's available.
+1. Try a different overlay! In the shell, type `overlays` and press `Enter` to see what's available.
 
 1. Add a second button, and make it change the overlay:
 

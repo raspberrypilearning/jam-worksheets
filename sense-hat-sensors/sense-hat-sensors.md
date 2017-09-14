@@ -12,20 +12,17 @@
     >>> sense.show_message(“Hello world”)
     ```
 
-    Press Enter after each line, and after the third line, the message should appear on the Sense HAT's display.
+    Press `Enter` after each line, and after the third line, the message should appear on the Sense HAT's display.
 
-1. Now try retreiving the sensor values:
+1. Now try retrieving the sensor values:
 
     ```python
     >>> sense.temperature
     >>> sense.humidity
     >>> sense.pressure
-    >>> sense.accelerometer
-    >>> sense.gyroscope
-    >>> sense.orientation
     ```
 
-    When you press Enter, you will see the sensor's value.
+    When you press `Enter`, you will see the sensor's value.
 
 ## Faces
 
@@ -33,36 +30,51 @@
 
     ```python
     from sense_hat import SenseHat
-    from faces import normal, happy, sad
     from time import sleep
 
     sense = SenseHat()
 
-    sense.set_pixels(sad)
-    sleep(1)
-    sense.set_pixels(normal)
-    sleep(1)
-    sense.set_pixels(happy)
+    r = (255, 0, 0)
+    g = (0, 255, 0)
+    b = (0, 0, 255)
+    y = (255, 255, 0)
+    p = (255, 0, 255)
+    c = (0, 255, 255)
+    w = (255, 255, 255)
+    e = (0, 0, 0)
+
+    icon = [
+        e, e, e, e, e, e, e, e,
+        e, e, e, e, e, e, e, e,
+        e, e, b, e, e, b, e, e,
+        e, e, e, e, e, e, e, e,
+        e, e, e, e, e, e, e, e,
+        e, b, e, e, e, e, b, e,
+        e, b, b, b, b, b, b, e,
+        e, e, e, e, e, e, e, e,
+    ]
+
+    sense.set_pixels(icon)
     ```
 
-1. Run the code with `F5` and you should see a sad face, a normal face and a happy face appear.
+1. Now make your own icon using the colours (`r` is red, `g` is green, `b` is blue and so on). Your icon must be 8x8 like the example.
 
-## And breathe...
+1. Run the code with `F5` and you should see your icon on the Sense HAT display.
 
-1. Replace the last 5 lines with:
+## Make it hot
+
+1. Replace the last line with:
 
     ```python
-    start_humidity = sense.humidity
+    start_temperature = sense.temperature
 
     while True:
-        print(sense.humidity)
-        if sense.humidity > start_humidity + 10:
-            sense.set_pixels(happy)
-        elif sense.humidity > start_humidity + 5:
-            sense.set_pixels(normal)
+        print(sense.temperature)
+        if sense.temperature > start_temperature + 2:
+            sense.set_pixels(icon)
         else:
-            sense.set_pixels(sad)
+            sense.clear()
         sleep(1)
     ```
 
-1. Run the code again. Now breathe on the Sense HAT and see if you can make it smile!
+1. Run the code again. Now press your finger against the temperature sensor on the Sense HAT and see if you can make your icon appear!
