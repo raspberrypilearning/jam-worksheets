@@ -12,8 +12,9 @@ Edit these on [GitHub](https://github.com/raspberrypilearning/jam-worksheets) an
 - [Push button camera](push-button-camera/README.md)
 - [Random Sparkles](random-sparkles/README.md)
 - [Sense HAT Sensors](sense-hat-sensors/README.md)
-- [Traffic Lights](traffic-lights/README.md)
-- [Traffic Lights controller](traffic-lights-controller/README.md)
+- [Traffic Lights](traffic-lights/README.md) (lights only)
+- [Traffic Lights full](traffic-lights-full/README.md) (plus button and buzzer)
+- [Traffic Lights controller](traffic-lights-controller/README.md) (guizero)
 
 ## Links
 

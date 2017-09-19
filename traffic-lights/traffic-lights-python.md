@@ -1,17 +1,14 @@
-# Traffic Lights
+# Traffic Lights with Python
 
-## Connect the pi-stop
+## Connect the LEDs
 
-1. Take the pi-stop and place it directly on the Raspberry Pi's GPIO pins, connecting it as follows:
+1. Connect your LEDs to the following pins:
 
-| pi-stop   | GPIO pin |
+| LED       | GPIO pin |
 | --------- | :------: |
 | Red       | 22       |
 | Amber     | 27       |
 | Green     | 17       |
-| Ground    | GND      |
-
-![](images/pi-stop.png)
 
 ## Control the LEDs
 
