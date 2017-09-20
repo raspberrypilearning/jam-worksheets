@@ -24,9 +24,9 @@ If using LEDs and a breadboard, you may want to wire this up before starting, or
 
 If using the EduBlocks version, you'll need to install EduBlocks:
 
-    ```bash
-    curl -sSL get.edublocks.org | bash
-    ```
+```bash
+curl -sSL get.edublocks.org | bash
+```
 
 ## Notes
 
