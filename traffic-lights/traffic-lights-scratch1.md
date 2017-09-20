@@ -28,6 +28,8 @@
 
     ![](images/scratch1-3.png)
 
+1. Click the green flag again and you should see the LED blink.
+
 1. Now add some more **broadcast** blocks to introduce the other two lights, and make them all flash on and off:
 
     ![](images/scratch1-4.png)
