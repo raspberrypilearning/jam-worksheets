@@ -8,11 +8,25 @@
 - [Scratch 2](traffic-lights-scratch2.md)
 - [EduBlocks](traffic-lights-edublocks.md)
 
+## What you will need
+
+- Traffic lights kit (e.g. pi-stop) OR:
+    - breadboard
+    - 3 x LEDs (green, yellow and red)
+    - 3 x resistors
+    - 4 x male-to-female jumper wires
+
 ## Preparation
 
 If you have pi-stops, no preparation is required - just hand out pi-stops, and port labels if you have them.
 
 If using LEDs and a breadboard, you may want to wire this up before starting, or give them a diagram to wire it up themselves.
+
+If using the EduBlocks version, you'll need to install EduBlocks:
+
+    ```bash
+    curl -sSL get.edublocks.org | bash
+    ```
 
 ## Notes
 
