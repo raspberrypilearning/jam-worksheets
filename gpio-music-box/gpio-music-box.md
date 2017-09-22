@@ -55,7 +55,7 @@ Wire up a series of buttons that play particular sounds when pressed.
 
 1. Now add a loop to make each button press make a sound:
 
-    ```
+    ```python
     for button, sound in button_sounds.items():
         button.when_pressed = sound.play
     ```
