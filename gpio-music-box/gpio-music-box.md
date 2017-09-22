@@ -1,4 +1,4 @@
-# GPIO Music Box
+# GPIO music box
 
 Wire up a series of buttons that play particular sounds when pressed.
 
