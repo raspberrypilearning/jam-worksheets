@@ -1,10 +1,10 @@
-# Traffic Lights with Scratch 2
+# Traffic lights with Scratch 2
 
 ## Connect the LEDs
 
 1. Connect your LEDs to the following pins:
 
-| LED       | GPIO pin |
+| LED       | GPIO  |
 | --------- | :------: |
 | Red       | 22       |
 | Amber     | 27       |
@@ -12,7 +12,7 @@
 
 ## Control the LEDs
 
-1. Open **Scratch 2** from the Programming menu (**Scratch 2** not **Scratch**).
+1. Open **Scratch 2** from the Programming menu (**Scratch 2**, not **Scratch**).
 
 1. Open the **More Blocks** panel, click **Add an Extension**, and select **Pi GPIO**. You should then see two new blocks appear:
 
