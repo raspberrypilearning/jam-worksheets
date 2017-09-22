@@ -40,7 +40,7 @@ Wire up a series of buttons that play particular sounds when pressed.
     button.when_pressed = drum.play
     ```
 
-1. Run the program again, then press the button and you should hear the drum sound played. Each time you press the button it should play the sound.
+1. Run the program again, then press the button. You should hear the drum sound. Each time you press the button it should play the sound.
 
 ## Add a second button
 
@@ -60,6 +60,6 @@ Wire up a series of buttons that play particular sounds when pressed.
         button.when_pressed = sound.play
     ```
 
-1. Now run the program again and try pressing each button. Each button should play its own sound.
+1. Now run the program again and try pressing the buttons. Each button should play its own sound.
 
 You can try adding more buttons and more sounds. Wire up more buttons like the others, add buttons and sounds to the dictionary, and look in the `sounds` folder for more sounds.
