@@ -4,7 +4,7 @@ Short worksheets for small activities for use at Raspberry Jams. All resources [
 
 Edit these on [GitHub](https://github.com/raspberrypilearning/jam-worksheets) and browse them at [raspberrypi.org/learning/jam-worksheets](https://www.raspberrypi.org/learning/jam-worksheets/).
 
-## Contents
+## Contents (GB - English)
 
 - [GPIO Music Box](gpio-music-box/README.md)
 - [Minecraft Beats](minecraft-beats/README.md)
@@ -16,9 +16,8 @@ Edit these on [GitHub](https://github.com/raspberrypilearning/jam-worksheets) an
 - [Traffic Lights full](traffic-lights-full/README.md) (plus button and buzzer)
 - [Traffic Lights controller](traffic-lights-controller/README.md) (guizero)
 
-## Languages
+## Other languages
 
-- [ GB - English]
 - [ ES - Spanish](es/README.md)
 - [ EU - Basque](eu/README.md)
 
