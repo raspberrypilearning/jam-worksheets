@@ -22,5 +22,5 @@ Coleccion de hojas de ejercicio para actividades cortas para las Raspberry Jam. 
  Fecha: 28/09/2017
  
  Traductores:
- - (Oier Echaniz)[https://github.com/oiertwo)
+ - (Oier Echaniz)[https://github.com/oiertwo]
 
