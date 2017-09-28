@@ -7,11 +7,11 @@ coleccion de hojas de ejercicio para actividades cortas para las Raspberry Jam. 
 - [GPIO Music Box](gpio-music-box/README.md)
 - [Minecraft Beats](minecraft-beats/README.md)
 - [Minecraft TNT](minecraft-tnt/README.md)
-- [Push button camera](push-button-camera/README.md)
-- [Random Sparkles](random-sparkles/README.md)
-- [Sense HAT Sensors](sense-hat-sensors/README.md)
-- [Traffic Lights](traffic-lights/README.md)
-- [Traffic Lights controller](traffic-lights-controller/README.md)
+- [Pulsador y camera](push-button-camera/README.md)
+- [Destellos Aleatorios](random-sparkles/README.md)
+- [Sense HAT Sensores](sense-hat-sensors/README.md)
+- [Semaforo](traffic-lights/README.md)
+- [Controlador Semaforo](traffic-lights-controller/README.md)
 
 ## Enlaces
 
@@ -20,6 +20,7 @@ coleccion de hojas de ejercicio para actividades cortas para las Raspberry Jam. 
 
 ## Notas de la traduccion
  Fecha: 28/09/2017
+ 
  Traductores:
  - (Oier Echaniz)[https://github.com/oiertwo)
 
