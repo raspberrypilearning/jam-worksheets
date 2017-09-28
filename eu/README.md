@@ -17,3 +17,7 @@ Raspberry Pi Jam-etan erabiltzeko prest dauden ariketa orriak. Lizentzia [CC BY-
 
 - [Raspberry Pi resources](https://www.raspberrypi.org/resources/)
 - [Raspberry Pi Learning on GitHub](https://github.com/raspberrypilearning)
+
+## Itzulpena oharrak
+Bertsioa: 2017/09/15
+Hitzultzailea @oiertwo
