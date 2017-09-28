@@ -1,21 +1,21 @@
-# Raspberry Jam worksheets
+# Raspberry Jam Ariketa-orriak
 
-Short worksheets for small activities for use at Raspberry Jams. All resources [CC BY-SA Raspberry Pi Foundation](https://github.com/raspberrypilearning/jam-worksheets/blob/master/LICENCE.md).
+Raspberry Pi Jam-etan erabiltzeko prest dauden ariketa orriak. Lizentzia [CC BY-SA Raspberry Pi Foundation](https://github.com/raspberrypilearning/jam-worksheets/blob/master/LICENCE.md).
 
 Edit these on [GitHub](https://github.com/raspberrypilearning/jam-worksheets) and browse them at [raspberrypi.org/learning/jam-worksheets](https://www.raspberrypi.org/learning/jam-worksheets/).
 
-## Contents
+## Edukia
 
 - [GPIO Music Box](gpio-music-box/README.md)
 - [Minecraft Beats](minecraft-beats/README.md)
 - [Minecraft TNT](minecraft-tnt/README.md)
-- [Push button camera](push-button-camera/README.md)
-- [Random Sparkles](random-sparkles/README.md)
-- [Sense HAT Sensors](sense-hat-sensors/README.md)
-- [Traffic Lights](traffic-lights/README.md)
-- [Traffic Lights controller](traffic-lights-controller/README.md)
+- [pultsagailua eta kamera](push-button-camera/README.md)
+- [Auzazko Argi izpiak](random-sparkles/README.md)
+- [Sense HAT Sentsoreak](sense-hat-sensors/README.md)
+- [Semaforoa](traffic-lights/README.md)
+- [Semaforoaren kontrolagailua](traffic-lights-controller/README.md)
 
-## Links
+## Estekak [Ingelesez]
 
 - [Raspberry Pi resources](https://www.raspberrypi.org/resources/)
 - [Raspberry Pi Learning on GitHub](https://github.com/raspberrypilearning)
