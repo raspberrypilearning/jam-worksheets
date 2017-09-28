@@ -2,8 +2,6 @@
 
 Raspberry Pi Jam-etan erabiltzeko prest dauden ariketa orriak. Lizentzia [CC BY-SA Raspberry Pi Foundation](https://github.com/raspberrypilearning/jam-worksheets/blob/master/LICENCE.md).
 
-Edit these on [GitHub](https://github.com/raspberrypilearning/jam-worksheets) and browse them at [raspberrypi.org/learning/jam-worksheets](https://www.raspberrypi.org/learning/jam-worksheets/).
-
 ## Edukia
 
 - [GPIO Music Box](gpio-music-box/README.md)
