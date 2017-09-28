@@ -1,10 +1,8 @@
-# Raspberry Jam worksheets
+# Hojas de ejercicios para Raspberry Jam 
 
-Short worksheets for small activities for use at Raspberry Jams. All resources [CC BY-SA Raspberry Pi Foundation](https://github.com/raspberrypilearning/jam-worksheets/blob/master/LICENCE.md).
+coleccion de hojas de ejercicio para actividades cortas para las Raspberry Jam. Todos los recursos [CC BY-SA Raspberry Pi Foundation](https://github.com/raspberrypilearning/jam-worksheets/blob/master/LICENCE.md).
 
-Edit these on [GitHub](https://github.com/raspberrypilearning/jam-worksheets) and browse them at [raspberrypi.org/learning/jam-worksheets](https://www.raspberrypi.org/learning/jam-worksheets/).
-
-## Contents
+## Contenido
 
 - [GPIO Music Box](gpio-music-box/README.md)
 - [Minecraft Beats](minecraft-beats/README.md)
@@ -15,7 +13,13 @@ Edit these on [GitHub](https://github.com/raspberrypilearning/jam-worksheets) an
 - [Traffic Lights](traffic-lights/README.md)
 - [Traffic Lights controller](traffic-lights-controller/README.md)
 
-## Links
+## Enlaces
 
 - [Raspberry Pi resources](https://www.raspberrypi.org/resources/)
 - [Raspberry Pi Learning on GitHub](https://github.com/raspberrypilearning)
+
+## Notas de la traduccion
+ Fecha: 28/09/2017
+ Traductores:
+ - (Oier Echaniz)[https://github.com/oiertwo)
+
