@@ -1,23 +1,23 @@
-# Traffic Lights
+# Semaforoa
 
-## Connect the pi-stop
+## Konektatu pi-stop
 
-1. Take the pi-stop and place it directly on the Raspberry Pi's GPIO pins, connecting it as follows:
+1. Pi-stop hartu eta zuzenean konektatu Raspberry Pi-aren GPIO pinetara, pinak ondoren agertzen diren moduan egon beharko dira:
 
 | pi-stop   | GPIO pin |
 | --------- | :------: |
-| Red       | 22       |
-| Amber     | 27       |
-| Green     | 17       |
-| Ground    | GND      |
+| Gorria (Red)       | 22       |
+| Laranja (Amber)     | 27       |
+| Berdea (Green)     | 17       |
+| Lurra (Ground)    | GND      |
 
 ![](images/pi-stop.png)
 
-## Control the LEDs
+## LEDak kontrolatzen
 
-1. Open Python 3 from the main menu, and open a new file.
+1. Ireki Python 3 menu nagusitik eta bertan ireki fitxategi berri bar.
 
-1. Enter the following code:
+1. Ondorengo kodea idatzi:
 
     ```python
     from gpiozero import LED
@@ -27,9 +27,10 @@
     red.blink()
     ```
 
-1. Now save your program and press **F5** to run your code. You should see the red light flash on and off continuously.
+1. Gorde programa eta sakatu **F5** kodea exekutatzeko. Argi gorria pizten eta itzaltzen ikusi beharko litzateke orain. 
 
-1. Now modify your code to introduce the other two lights, and make them blink at different speeds:
+1. Orain aurreko kodea aldatuko dugu beste bi argiak gehitzeko eta 
+
 
     ```python
     from gpiozero import LED
