@@ -1,29 +1,29 @@
-# Traffic Lights
+# Semaforoa
 
-## Variations
+## Aukerak
 
-- [pi-stop Traffic Lights](pi-stop-traffic-lights.md) - traffic lights only, using a pi-stop
+- [pi-stop Traffic Lights](pi-stop-traffic-lights.md) - pi-stop ekin erabiltzeko.
     - [PDF version](pdf/Controlling-a-traffic-lights-sequence-with-GPIO-Zero.pdf)
-- [Traffic Lights](traffic-lights.md) - traffic lights, button and buzzer - can be used with a breadboard or with the Traffic HAT
+- [Traffic Lights](traffic-lights.md) [Ingelesez] - traffic lights, button and buzzer - can be used with a breadboard or with the Traffic HAT
 
-## Preparation
+## Aurrekariak
 
-If following the pi-stop only worksheet, no preparation is required - just hand out pi-stops, and port labels if you have them.
+Pi-stop-en ariketak jarraitzeko ez duzu ezer egin behar aurretik. 
 
-If following the full version, you'll need to either wire up components on a breadboard, or use a Traffic HAT:
+Bertsio osoan lan egin nahi baduzu breadboard baten egitura osatu beharko duzu edo Traffic Hat bat erabili beharko duzu. 
 
-- If using a breadboard, wire up the components to the following pins:
+- Breadborad bat erabiltzera bazoaz konektatu konponentean ondoren azaltzen den moduan:
     - Green: GPIO22
     - Yellow: GPIO23
     - Red: GPIO24
     - Button: GPIO25
     - Buzzer: GPIO5
-- If using a Traffic HAT, place this on the Pi before starting
+- Traffic Hat erabiltzera bazoaz, konektatu Raspberry Pi-ra hasi aurretik.
 
-## Notes
+## Oharrak
 
-- Be careful with capitalisation in Python!
-- Check the correct pin numbers are used
-- Use a port label if you have one available:
-    - Buy one from http://rasp.io/portsplus/
-    - Print your own from https://github.com/splitbrain/rpibplusleaf
+- Kontuz ibili maiuskulekin Python erabiltzerakoan! 
+- Pin zenbakiak ondo dituzula ziurtatu
+- Baldin baduzu, erabili portuen etiketa adierazten duen gehigarria:
+    - Erori bat http://rasp.io/portsplus/
+    - Inprimatu zurea https://github.com/splitbrain/rpibplusleaf
