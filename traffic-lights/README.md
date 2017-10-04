@@ -5,8 +5,11 @@
 - [Python](traffic-lights-python.md)
     - [PDF version](pdf/Controlling-a-traffic-lights-sequence-with-GPIO-Zero.pdf)
 - [Scratch 1.4](traffic-lights-scratch1.md)
+    - [PDF version](pdf/Controlling-a-traffic-lights-sequence-with-Scratch-1.pdf)
 - [Scratch 2](traffic-lights-scratch2.md)
+    - [PDF version](pdf/Controlling-a-traffic-lights-sequence-with-Scratch-2.pdf)
 - [EduBlocks](traffic-lights-edublocks.md)
+    - [PDF version](pdf/Controlling-a-traffic-lights-sequence-with-EduBlocks.pdf)
 
 ## What you will need
 
