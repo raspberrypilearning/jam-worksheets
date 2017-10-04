@@ -1,10 +1,10 @@
-# Traffic Lights with Scratch 1.4
+# Traffic lights with Scratch 1.4
 
 ## Connect the LEDs
 
 1. Connect your LEDs to the following pins:
 
-| LED       | GPIO pin |
+| LED       | GPIO  |
 | --------- | :------: |
 | Red       | 22       |
 | Amber     | 27       |
@@ -12,13 +12,13 @@
 
 ## Control the LEDs
 
-1. Open **Scratch** from the Programming menu (**Scratch** not **Scratch 2**).
+1. Open **Scratch** from the Programming menu (**Scratch**, not **Scratch 2**).
 
-1. Click **Edit** in the menu bar and select **Start GPIO Server**:
+1. Click **Edit** in the menu bar and select **Start GPIO server**:
 
     ![](images/scratch1-1.png)
 
-1. Click the **Control** panel and drag in a **when flag clicked** block and two **broadcast** blocks. Dock them together in sequence and edit the broadcasts to say `config22out` and `gpio22on` like so:
+1. Click the **Control** panel. Drag in a **when flag clicked** block and two **broadcast** blocks. Dock them together in sequence and edit the broadcasts to say `config22out` and `gpio22on` like so:
 
     ![](images/scratch1-2.png)
 

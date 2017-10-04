@@ -1,10 +1,10 @@
-# Traffic Lights with EduBlocks
+# Traffic lights with EduBlocks
 
 ## Connect the LEDs
 
 1. Connect your LEDs to the following pins:
 
-| LED       | GPIO pin |
+| LED       | GPIO  |
 | --------- | :------: |
 | Red       | 22       |
 | Amber     | 27       |
@@ -18,7 +18,7 @@
 
     ![](images/edublocks1.png)
 
-1. Click the **Outputs** drop-down under **gpiozero** and click **LED**. Drag a `led = LED(pin)` block into the workspace beneath the import block. Rename the variable from `led` to `red`, and change `pin` to `22`.
+1. Click the **Outputs** drop-down under **gpiozero** and click **LED**. Drag an `led = LED(pin)` block into the workspace beneath the import block. Rename the variable from `led` to `red`, and change `pin` to `22`.
 
 1. Drag in an `led.on` block, and dock it beneath the previous block. Change the `on` drop-down to `blink`. Your code blocks should now look like this:
 
