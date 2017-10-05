@@ -2,7 +2,7 @@
 
 ## Aukerak
 
-- [Auzazko argi izpiak](sense-hat-random-sparkles.md) - Sense HAT (hardware)-arekin erabiltzeko [INGELESEZ]
+- [Auzazko argi izpiak](sense-hat-random-sparkles.md) [Ingelesez] - Sense HAT (hardware)-arekin erabiltzeko 
 - [Auzazko argi izpiak (aukera ezberdinekin)](sense-hat-random-sparkles-variations.md) - Sense HAT (hardware) - ekin erabili daiteke, edo ordenagailu zein webguneko emuladorearekin
     - [PDF version](pdf/Make-Random-Sparkles-on-the-Sense-HAT.pdf)
 
