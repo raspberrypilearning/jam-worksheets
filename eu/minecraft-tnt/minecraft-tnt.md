@@ -1,18 +1,18 @@
 # Minecraft TNT
 
-## Enter the Minecraft world
+## Minecraft mundua ezagutzen
 
-1. Open Minecraft Pi from the main menu. Start a game and create a new world.
+1. Ireki Minecraft Pi menu nagusitik. Hasi joko berri bat eta sordu mundu berri bat (new world).
 
-1. Walk around using the WSAD keys on the keyboard. Use space to jump, and double tap space to fly.
+1. Munduan zear ibiltzeko erabili WASD teklak teklatuan. Erabili hutsunea behin salto egiteko, bi aldiz hegan egiteko.
 
-1. Press Tab and the keyboard to release your mouse cursor, and open Python 3 from the main menu.
+1. Sakatu Tab teklatuan xaguaren kursorea ikusteko eta ireki Python 3 menu nagusitik.
 
-1. Move your windows around so Minecraft and Python are side-by-side.
+1. Mugitu leihoak minecraft eta Python-en lehioak osorik ikusi ahal dituzun arte. 
 
-## Controlling Minecraft with Python
+## Python Minecraft kontrolatzeko erabiltzen
 
-1. Open a new Python window and enter the following code:
+1. Ireki Python leiho berri bat eta idatzi ondorengoa:
 
     ```python
     from mcpi.minecraft import Minecraft
@@ -22,41 +22,41 @@
     mc.postToChat("Hello world")
     ```
 
-1. Run the code with `F5` and you should see the message "Hello world" appear in the Minecraft window.
+1. Exekutatu kodea `F5` tekla sakatuz eta ondorioz Minecarft leihoan "Hello world" dioen mezu bat agertu dela ikusi beharko duzu. 
 
-1. Add the following lines to your code:
+1. Gehitu ondorengo lerroak zure aurreko kodeari:
 
     ```python
     x, y, z = mc.player.getPos()
     mc.setBlock(x+1, y, z, 1)
     ```
 
-1. Run the code and you should see a block of stone appear near your player. If it's not in front of you, try looking around.
+1. Exekutatu kodea eta zure pertsonaiaren inguruan harrizko bloke bat azaldu dela ikusi beharko duzu. Zure ondoan ez badago saiatu zure ingurunean begiratzen. 
 
-1. Change the `1` at the end of the `setBlock` line to a `2`:
+1. Aldatu `setBlock`-ean agertzen den `1` zenbakia `2` zenbakiarekin:
 
     ```python
     mc.setBlock(x+1, y, z, 2)
     ```
 
-1. You should now see a block of grass appear. Try changing the number again and see what kind of block gets placed.
+1. Orain belar bloke bat ikusi beharko zenduke zure inguruan. Saiatu berriz zenbakia aldatzen eta ikusi zein motatako blokea sortzen den.
 
-1. Try changing `setBlock` to `setBlocks` to build a 10x10x10 cube rather than a single block:
+1. Saiatu `setBlock` jarri beharrean `setBlocks` jartzen 10x10x10 tamainako egitura bat sortzeko, bloke bakarra izan beharrean:
 
     ```python
     mc.setBlocks(x+1, y+1, z+1, x+11, y+11, z+11, 1)
     ```
 
-     You should see a large solid cube of stone appear!
+     Bloke anddiago bat ikusi beharko zenuke orain!
 
 ## TNT
 
-The block ID for TNT is `46`. There are two types of TNT: unexplosive TNt and explosive TNT. You want explosive TNT.
+TNT-ak duen identifikazio zenbakia '46' da. Bi TNT mota daude: ez leherkorrak eta leherkorrak. Guk leherkorrak erabiliko ditugu.
 
-1. Build a solid cube of TNT. To get explosive TNT, you need to add a `1` to the end of your `setBlocks` line:
+1. sortu TNT bloke bat. TNT leherkorra izateko `1` zenbakia gehitu behar zaio `setBlocks` lerroari:
 
     ```python
     mc.setBlocks(x+1, y+1, z+1, x+11, y+11, z+11, 46, 1)
     ```
 
-1. Go up to the cube of TNT and hit it with your sword using right-click. This will activate the TNT. Stand back and watch the show!
+1. Joan TNT blokea sortu den lekura eta xaguaren eskuineko btaia erabiliz jo zure espatarekin blkea. Honek blokea aktibatuko du. Itxaron eta gozatu ikuskizunaz.
