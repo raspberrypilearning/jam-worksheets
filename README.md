@@ -16,7 +16,7 @@ Edit these on [GitHub](https://github.com/raspberrypilearning/jam-worksheets) an
 - [Traffic Lights full](traffic-lights-full/README.md) (plus button and buzzer)
 - [Traffic Lights controller](traffic-lights-controller/README.md) (guizero)
 
-# PDFs
+## PDFs
 
 [![](images/minecraft.png)](jam-worksheets-pdf.zip)
 [![](images/random-sparkles.png)](jam-worksheets-pdf.zip)
