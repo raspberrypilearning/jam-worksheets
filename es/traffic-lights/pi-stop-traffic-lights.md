@@ -1,23 +1,23 @@
-# Traffic Lights
+# Semaforo
 
-## Connect the pi-stop
+## Conectar la pi-stop
 
-1. Take the pi-stop and place it directly on the Raspberry Pi's GPIO pins, connecting it as follows:
+1. Coge la pi-stop y colocalo en los pines GPIO de la Raspberry Pi como se muestra a continuación: 
 
 | pi-stop   | GPIO pin |
 | --------- | :------: |
-| Red       | 22       |
-| Amber     | 27       |
-| Green     | 17       |
-| Ground    | GND      |
+| Rojo (Red)       | 22       |
+| Naranja (Amber)     | 27       |
+| Verde (Green)     | 17       |
+| Tierra (Ground)    | GND      |
 
 ![](images/pi-stop.png)
 
-## Control the LEDs
+## Control de los LEDs
 
-1. Open Python 3 from the main menu, and open a new file.
+1. Abre Python 3 desde el menu principal y abre un nuevo fichero.
 
-1. Enter the following code:
+1. Añade este codigo:
 
     ```python
     from gpiozero import LED
@@ -27,9 +27,11 @@
     red.blink()
     ```
 
-1. Now save your program and press **F5** to run your code. You should see the red light flash on and off continuously.
+1. Guarda el programa y presiona **F5** para ejecutar tu codigo. La luz roja parpadeara constantemente.
 
-1. Now modify your code to introduce the other two lights, and make them blink at different speeds:
+
+1. Ahora modifica el codigo para añadir las otras dos luces, las haremos parpadear a diferentes velocidades:
+
 
     ```python
     from gpiozero import LED
@@ -43,13 +45,13 @@
     green.blink(3, 3)
     ```
 
-1. Run your code again and you should see the three lights flashing at different rates.
+1. Ejecuta el codigo otra vez y observa parpadear las tres luces a diferentes velocidades.
 
-1. If a larger number makes a light blink slower, what number would make it run faster? Try to make your lights blink faster.
+1. Si un numero ms grande hace parpadear ms despacio, ¿que numero deberiamos de usar para un parpadeo más rapido? Intenta que alguna luz parpadee ms rapido.
 
-## Traffic lights sequence
+## La secuencia del semáforo
 
-1. The `on` function allows you to turn a light on. You can use `sleep` to pause between commands. Try this example to turn the lights on in sequence:
+1. La función `on` te permite encender la luz. Puedes usar la funcion `sleep` para crear una pausa entre diferentes comandos. Prueba este codigo para encender las luces de manera secuencial:
 
     ```python
     from gpiozero import LED
@@ -67,9 +69,9 @@
     sleep(1)
     ```
 
-    The main controls for LEDs are `on`, `off`, `toggle` and `blink`.
+    Los controles ms importantes para los LEDs son `on`, `off`, `toggle` y `blink`.
 
-1. Try turning the lights on and off in sequence:
+1. Prueba a encender y apagar las luces en una secuencia:
 
     ```python
     red.on()
@@ -85,7 +87,7 @@
     green.off()
     ```
 
-1. Try repeating this by putting the code inside a `while` loop:
+1. Prueba a repetir la secuencia anterior usando un bucle de tipo `while`:
 
     ```python
     while True:
@@ -102,14 +104,13 @@
         green.off()
     ```
 
-1. Now you know how to control the lights individually, and time the pauses between commands, can you create a traffic lights sequence? The sequence goes:
+1. Ahora que sabes controlar las luces de manera individual, sabes crear pausas entre comandos, podrias crear una secuencia real de semaforo? La secuencia real es:
 
-    - Green on
-    - Amber on
-    - Red on
-    - Red and amber on
-    - Green on
+    - Luz verda
+    - Luz naranja
+    - Luz roja
+    - Luz verde
 
-It's important to think about timing. How long should the lights stay on for at each stage?
+Es importante pensar en el tiempo. Cuanto tiempo deberia de estar encendido cada luz?
 
-Once you have completed the traffic lights sequence, you might want to try adding in a button and a buzzer to make an interactive version.
+Una vez que ya has creado la secuencia real de semáforo, puedes probar en añadir un boton y un timbre (Buzzer) para hacer una version interactiva.
