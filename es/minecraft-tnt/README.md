@@ -4,7 +4,7 @@
 
 - [Minecraft TNT](minecraft-tnt.md)
 
-## Notes
+## Notas
 
 - Cuidado con las mayusculas y las minusculas en Python!
 
