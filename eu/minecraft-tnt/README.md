@@ -4,6 +4,14 @@
 
 - [Minecraft TNT](minecraft-tnt.md)
 
-## Notes
+## Oharrak
 
-- Be careful with capitalisation in Python!
+- Maiuskulak eta minuskulekin kontzu ibili Python erabiltzerakoan.
+
+
+## Itzulpen oharrak
+
+Bertsioa: 2017/09/28
+
+Itzultzailea:
+ - [Oier Echaniz](https://github.com/oiertwo)
