@@ -44,13 +44,13 @@
     green.blink(3, 3)
     ```
 
-1. Run your code again and you should see the three lights flashing at different rates.
+1. Exekutatu kodea berriz ere eta orain hiru argiak ikusi beharko dituzu pizten eta itzaltzen, bakoitza abiadura ezberdinarekin.
 
-1. If a larger number makes a light blink slower, what number would make it run faster? Try to make your lights blink faster.
+1. Zenbaki handiago batek argiak polikiago pizten eta itzaltzen badire, zer eragingo du hauek azkarrago aldatzea? Saiatu argiak azkarrago pizten eta itzaltzen.
 
-## Traffic lights sequence
+## Semaforoaren ordena jarraitzen
 
-1. The `on` function allows you to turn a light on. You can use `sleep` to pause between commands. Try this example to turn the lights on in sequence:
+1. `on` funtzioak argi bat pizten du. `sleep` funtzioak komandoen artean etenaldi bat sortzen du. Saiatu zaitez ondorengo adibidea erabiliz semaforoaren argiak ordenean pizten.
 
     ```python
     from gpiozero import LED
@@ -68,9 +68,9 @@
     sleep(1)
     ```
 
-    The main controls for LEDs are `on`, `off`, `toggle` and `blink`.
+    LED argientzako erabiltzen diren funtzio nagusiak `on`, `off`, `toggle` eta `blink` dira.
 
-1. Try turning the lights on and off in sequence:
+1. Saiatu zaitez argiak piztu eta itzaltzen ordena mantenduz:
 
     ```python
     red.on()
@@ -86,7 +86,7 @@
     green.off()
     ```
 
-1. Try repeating this by putting the code inside a `while` loop:
+1. `while` bukle baten barruan jarriz aurrekoa kodea automatikoki errepikatu:
 
     ```python
     while True:
@@ -103,14 +103,13 @@
         green.off()
     ```
 
-1. Now you know how to control the lights individually, and time the pauses between commands, can you create a traffic lights sequence? The sequence goes:
+1. Argiak banan banan erabiltzen dakizu, baita komando lerroen artean etenaldiak sortzen, bururatzen zaizu nola programatu semaforoetan agertzen den ordena? Gogoratu ordena:
 
-    - Green on
-    - Amber on
-    - Red on
-    - Red and amber on
-    - Green on
+    - Berdea piztu
+    - Laranja piztu
+    - Gorria piztu
+    - Berdea piztu
 
-It's important to think about timing. How long should the lights stay on for at each stage?
+Denboraz gogoratu. Zenbat denbora egon behar da argi bakoitza piztuta?
 
-Once you have completed the traffic lights sequence, you might want to try adding in a button and a buzzer to make an interactive version.
+Semaforoen ordena programatzen bukatu duzunean, soinua eta pultsadorea gehitu ahal dituzu semaforo elkarreragile bat izateko.
