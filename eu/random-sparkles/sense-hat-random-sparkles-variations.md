@@ -1,4 +1,4 @@
-# Sense HAT Auzasko Argi izpiak
+# Sense HAT Ausazko Argi izpiak
 
 Ondorengo pausoak jarraitzeko Sense Hat hardwarea erabil dezaketu, edo Raspbianeko emuladorea edo webguneko emuladorea Trinket webgunean ere erabil daitezke.
 
