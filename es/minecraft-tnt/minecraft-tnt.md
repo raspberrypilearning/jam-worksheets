@@ -1,18 +1,18 @@
 # Minecraft TNT
 
-## Enter the Minecraft world
+## Entra al mundo de Minecraft 
 
-1. Open Minecraft Pi from the main menu. Start a game and create a new world.
+1. Abre Minecraft Pi desde el menu principal. Comienza la partida y crea un mundo nuevo.
 
-1. Walk around using the WSAD keys on the keyboard. Use space to jump, and double tap space to fly.
+1. Camina por el mundo usando las teclas WASD del teclado. Usa el espacio para saltar, usalo dos veces para volar.
 
-1. Press Tab and the keyboard to release your mouse cursor, and open Python 3 from the main menu.
+1. Presiona Tab para hacer aparecer el cursor del raton, y abre Python 3 desde el menu principal.
 
-1. Move your windows around so Minecraft and Python are side-by-side.
+1. Mueve las ventanas hasta que puedas ver comodamente las dos ventanas abiertas.
 
-## Controlling Minecraft with Python
+## Controlando Minecraft con Python
 
-1. Open a new Python window and enter the following code:
+1. Obre una nueva ventana de Python y añade el siguiente codigo:
 
     ```python
     from mcpi.minecraft import Minecraft
@@ -22,41 +22,42 @@
     mc.postToChat("Hello world")
     ```
 
-1. Run the code with `F5` and you should see the message "Hello world" appear in the Minecraft window.
+1. Ejecuta el codigo usando `F5`. Deberias de ver una mensaje que dice "Hello world" en la ventana de Minecraft.
 
-1. Add the following lines to your code:
+1. Añade las siguientes lineas al codigo:
 
     ```python
     x, y, z = mc.player.getPos()
     mc.setBlock(x+1, y, z, 1)
     ```
 
-1. Run the code and you should see a block of stone appear near your player. If it's not in front of you, try looking around.
+1. Ejecutalo y deberia de ver un bloque de piedra aparecer alrededor tuyo. Si no esta enfrente tuyo mira a tu alrededor!
 
-1. Change the `1` at the end of the `setBlock` line to a `2`:
+1. Cambia el numero `1` al final de la linea `setBlock` a `2`:
 
     ```python
     mc.setBlock(x+1, y, z, 2)
     ```
 
-1. You should now see a block of grass appear. Try changing the number again and see what kind of block gets placed.
+1. Ejecutalo y veras aparecer un bloque de hierba. Prueba cambiando el numero y comprueba que ocurre.
 
-1. Try changing `setBlock` to `setBlocks` to build a 10x10x10 cube rather than a single block:
+
+1. Cambia `setBlock` a `setBlocks` para construir un cubo de 10x10x10 en vez de un simple bloque:
 
     ```python
     mc.setBlocks(x+1, y+1, z+1, x+11, y+11, z+11, 1)
     ```
 
-     You should see a large solid cube of stone appear!
+     Verás aparecer un cubo enorme!
 
 ## TNT
 
-The block ID for TNT is `46`. There are two types of TNT: unexplosive TNt and explosive TNT. You want explosive TNT.
+El ID para un bloque de TNT es el `46`. Existen dos tipos de TNT: TNT no explosivo y TNT explosivo. Nosotros nos centraremos en los que explotan.
 
-1. Build a solid cube of TNT. To get explosive TNT, you need to add a `1` to the end of your `setBlocks` line:
+1. Crea un cubo solido de TNT. Para crear TNT explosivo tienes que añadir un `1` al final de la linea de `setBlocks`:
 
     ```python
     mc.setBlocks(x+1, y+1, z+1, x+11, y+11, z+11, 46, 1)
     ```
 
-1. Go up to the cube of TNT and hit it with your sword using right-click. This will activate the TNT. Stand back and watch the show!
+1. Acercate al cubo de TNT y golpealo con la espada. Puedes usar la espada clickando el boton secundario del ratón. Esto activara el TNT. Observa y disfruta del espectaculo.
