@@ -1,4 +1,4 @@
-# Semaforo
+# Semáforo
 
 ## Conectar la pi-stop
 
