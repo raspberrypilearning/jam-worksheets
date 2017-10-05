@@ -2,15 +2,14 @@
 
 ## Variations
 
-- [Random sparkles](sense-hat-random-sparkles.md) - uses the Sense HAT (hardware)
-- [Random sparkles (variations)](sense-hat-random-sparkles-variations.md) - can be used with Sense HAT (hardware), or the desktop or web-based emulator
+- [Random sparkles](sense-hat-random-sparkles.md) [Inglés] - uses the Sense HAT (hardware)
+- [Random sparkles (con variaciones)](sense-hat-random-sparkles-variations.md) - puede ser usado con Sense HAT (hardware), o el emulador de escritorio o el emuladorbasado en web.
     - [PDF version](pdf/Make-Random-Sparkles-on-the-Sense-HAT.pdf)
 
 ## Preparation
 
-- If using the Sense HAT, connect it to the Pi before booting up.
-- If using the Trinket emulator, run `sense.clear()` before starting:
-
+- Si usas Sense HAT, conectalo a la Pi antes de encenderlo.
+- Si usas el emulador de Trinket, ejecuta `sense.clear()` antes de empezar:
     ```python
     from sense_hat import SenseHat
     
@@ -19,9 +18,17 @@
     sense.clear()
     ```
 
-    then delete the code and let the user start from scratch.
+    despues borra el codigo y empieza desde cero.
 
-## Notes
+## Notas
 
-- Be careful with capitalisation in Python!
-- Make sure all required modules are imported at the top of the file at each stage.
+- Cuidado con las mayusculas y las minusculas en Python!
+- Comprueba que todos los modulos requeridos sean importados al principio del programa.
+
+## Notas de traduccion
+
+Version: 2017/09/28
+
+Traductor:
+ - [Oier Echaniz](https://github.com/oiertwo)
+
