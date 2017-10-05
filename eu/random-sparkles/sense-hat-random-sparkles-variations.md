@@ -1,51 +1,51 @@
-# Sense HAT Random Sparkles
+# Sense HAT Auzasko Argi izpiak
 
-For this activity, you can either use the real Sense HAT hardware, the desktop emulator in Raspbian, or the web-based emulator on Trinket.
+Ondorengo pausoak jarraitzeko Sense Hat hardwarea erabil dezaketu, edo Raspbianeko emuladorea edo webguneko emuladorea Trinket webgunean ere erabil daitezke.
 
-- If you're using the Sense HAT, attach it to your Raspberry Pi before booting.
-- If you're using the Trinket emulator, open a web browser and go to **trinket.io/sense-hat**
+- Sense Hat erabili behar baduzu konektatu Raspberry Pi-ra hau piztu aurretik.
+- Trinket webguneko emuladorea erabili behar baduzu, ireki web nabigatzailea eta joan **trinket.io/sense-hat** webgunera.
 
-## Using set_pixel
+## set_pixel erabiltzen
 
-First, we'll think up some random numbers and use the `set_pixel` function to place a random colour on a random location on the Sense HAT display.
+Lehenengo urrats modura, ausazko zenbakiak guk pentsatuko ditugu eta `set_pixel` funtzioa erabiliz auzasko toki batean ausazko kolorearekin argi bat piztuko dugu Sense Hat-ek duen display-ean. 
 
-1. If you're using a Raspberry Pi, open Python 3 and create a new file. If you're using the web emulator, delete the example code before you begin.
+1. Raspbery Pi erabiltzen bazabiltza, ireki Python 3 eta sortu fitxategi berri bat. Webgunean bazaude ezabatu adibideko kodea hasi aurretik. 
 
-1. In the new file, start by importing the Sense HAT module.
+1. Fitxategi berrian SenseHat moduloa inportatu.
 
-    If you're using a real Sense HAT or the Trinket emulator, the import line is:
+    Sense HAT edo Trinket emuladorea erabiltzen bazaude, inportatzeko erabiliko dugun lerroa ondorengoa da:
 
     ```python
     from sense_hat import SenseHat
     ```
 
-    If you're using the desktop emulator, the import line is:
+    Aldiz, Raspbian-en dagoen emuladorea bada, inportatzeko erabiliko dugun lerroa ondorengoa izango da:
 
     ```python
     from sense_emu import SenseHat
     ```
 
-    The rest of the code will be identical for all versions.
+    Hemendik aurrerako kodea bi aukeretarako berdina izango da.
 
-1. Next, create a connection to your Sense HAT by adding:
+1. Ondoren, SenseHat-arekin konektatu  ondorengo lerroa gehituz:
 
     ```python
     sense = SenseHat()
     ```
 
-1. Now think of a random number between 0 and 7 and assign it to the variable `x`, for example:
+1. Pentsatu 0 eta 7 arteko ausazko zenbaki baten eta `x` aldagaiari esleitu, adibidez:
 
     ```python
     x = 4
     ```
 
-1. Think of another random number between 0 and 7, then assign it to `y`:
+1. Pentsatu beste 0 eta 7 arteko ausazko zenbaki baten eta `y` aldagaiari esleitu:
 
     ```python
     y = 5
     ```
 
-1. Think of three random numbers between 0 and 255, then assign them to `r`, `g`, and `b`:
+1. 0 eta 255 arteko hiru ausazko zenbakietan pentsatu, esleitu zenbakiak `r`, `g`, eta `b` aldagaileri:
 
     ```python
     r = 19
@@ -53,36 +53,36 @@ First, we'll think up some random numbers and use the `set_pixel` function to pl
     b = 230
     ```
 
-1. Now use the `set_pixel` function to place your random colour at your random location on the display:
+1. Orain erabili `set_pixel` funtzioa auzazko lekuan ausazko kolorea duen argia pizteko:
 
     ```python
     sense.set_pixel(x, y, r, g, b)
     ```
 
-1. Now run your code by pressing **F5** (or the **Run** button in Trinket). You should see a single pixel light up.
+1. Exekutatu kodea **F5** saktuz (**Run** botoia Trinket webgunean). Pixel bat piztuta ikusi beharko zenuke.
 
-1. Now pick some new random numbers - change them all - and run the program again. A second pixel should appear on the display!
+1. Aukeratu beste ausazko zenbaki batzuk - aldatu zenbaki guztiak - eta exekutatu programa berriz. Beste pixel bat piztu da!
 
-## Using the random module
+## Auza sortzeko moduloa erabiltzen (Random)
 
-So far you've picked your own random numbers, but you can let the computer choose them instead.
+Orain arte ausazko zenbakiak sortu dituzu, baina ordenagailuari lan hau egiteko agindua eman ahal zaio. 
 
-1. Add another `import` line at the top of your program, below `import SenseHat`:
+1. Gehitu ausazko moduloaren (random) `import` lerroa programaren hasieran, justu `import SenseHat`lerroaren jarraian :
 
     ```python
     from random import randint
     ```
 
-1. Now change your `x =` and `y =` lines to automatically select a random position:
+1. Aldatu `x =` and `y =` aldagaiak automatikoki sortzeko:
 
     ```python
     x = randint(0, 7)
     y = randint(0, 7)
     ```
 
-1. Run your program again, and you should see another random pixel being placed on the display. It will be the same colour you chose previously.
+1. Exekutatu programa berriz ere, beste pixel bat piztuta agertuko zaizu orain. Seguruenez aurreko pixelaren kolore bera izango du, ez baitugu aldatu.
 
-1. Now change your colour value lines to:
+1. Koloreen aldagaiak aldatu:
 
     ```python
     r = randint(0, 255)
@@ -90,25 +90,26 @@ So far you've picked your own random numbers, but you can let the computer choos
     b = randint(0, 255)
     ```
 
-    Now your program will automatically select a random colour.
+    Orain programak sortuko ditu ausazko zenbakiak kolorea ezberdinak aukeratuz.
 
-1. Run it again, and you should see another pixel appear in a random location with a random colour.
+1. Exekutatu programa berriz ere, beste pixel bat agertuko da ausazko kolore batekin.
 
-1. Run it a few more times, and you should see more of the grid fill up with random pixels.
+1. Exekutato kodea nahi beste aldiz, pantaila kolore ezberdinez betetzen joango dela ikusiko duzu.
 
-## Add a loop
+## Buklea gehitzen
 
-Rather than have to keep running your program, you can add a loop so that it will keep going.
+Programa behin eta berriz exekutatu beharrean buklea erabili dezakegu gure lana automatikoki egiteko.
 
-1. First, add an `import` to the top of your file:
+
+1. Lehenengo, gehitu `import` tlerro bat programaren hasieran:
 
     ```python
     from time import sleep
     ```
 
-    You'll use this to pause the program between pixels.
+    funtzio hau pixel-en artean etenaldi bat sortzeko erabiliko dugu.
 
-1. Add a `while True:` to your code so that the random lines, `set_pixel` and `sleep` are all within the loop:
+1. Gehitu `while True:` buklea programari, `set_pixel` eta `sleep` buklearen barrualdean daudela ikus dezakezu:
 
     ```python
     while True:
@@ -121,6 +122,6 @@ Rather than have to keep running your program, you can add a loop so that it wil
         sleep(0.1)
     ```
 
-1. Run the code and you should see random sparkles in action!
+1. Exekutatu programa eta argi izpiak ikusiko dituzu!
 
-1. Try changing the sleep time to make it even shorter.
+1. Saiatu `sleep`funtzioko denbora aldatzen argi izpien arteko denbora motzagoa izateko.
