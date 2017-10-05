@@ -1,15 +1,15 @@
-# Random sparkles
+# Auzazko argi izpiak
 
-## Variations
+## Aukerak
 
-- [Random sparkles](sense-hat-random-sparkles.md) - uses the Sense HAT (hardware)
-- [Random sparkles (variations)](sense-hat-random-sparkles-variations.md) - can be used with Sense HAT (hardware), or the desktop or web-based emulator
+- [Auzazko argi izpiak](sense-hat-random-sparkles.md) - uses the Sense HAT (hardware)
+- [Auzazko argi izpiak (aukera ezberdinekin)](sense-hat-random-sparkles-variations.md) - Sense HAT (hardware) - ekin erabili daiteke, edo ordenagailu zein webguneko emuladorearekin
     - [PDF version](pdf/Make-Random-Sparkles-on-the-Sense-HAT.pdf)
 
-## Preparation
+## Prestakuntza
 
-- If using the Sense HAT, connect it to the Pi before booting up.
-- If using the Trinket emulator, run `sense.clear()` before starting:
+- SenseHat erabili behar baduzu, konektatu zure Pi-ra
+- Trinket emuladorea erabili behar baduzu, `sense.clear()` executatu hasi haurretik:
 
     ```python
     from sense_hat import SenseHat
@@ -19,9 +19,9 @@
     sense.clear()
     ```
 
-    then delete the code and let the user start from scratch.
+    ondoren kodea ezabatu eta hasieratik hasi zure txantiloila erabiliz.
 
-## Notes
+## Oharrak
 
-- Be careful with capitalisation in Python!
-- Make sure all required modules are imported at the top of the file at each stage.
+- Maiuskulak eta minuskulekin kontzu ibili Python erabiltzerakoan.
+- Egiaztatu inportatu behar diren liburutegi guztiak kode hasieran inportatzen dituzula.
