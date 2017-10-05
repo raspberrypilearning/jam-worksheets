@@ -27,3 +27,10 @@ Bertsio osoan lan egin nahi baduzu breadboard baten egitura osatu beharko duzu e
 - Baldin baduzu, erabili portuen etiketa adierazten duen gehigarria:
     - Erori bat http://rasp.io/portsplus/
     - Inprimatu zurea https://github.com/splitbrain/rpibplusleaf
+
+## Itzulpen oharrak
+
+Bertsioa: 2017/09/28
+
+Itzultzailea:
+ - [Oier Echaniz](https://github.com/oiertwo)
