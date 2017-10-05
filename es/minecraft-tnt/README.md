@@ -9,7 +9,7 @@
 - Cuidado con las mayusculas y las minusculas en Python!
 
 
-## Notas de traduccion
+## Notas de traducción
 
 Version: 2017/09/28
 
