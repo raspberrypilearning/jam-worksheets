@@ -6,7 +6,7 @@
     - [PDF version](pdf/Controlling-a-traffic-lights-sequence-with-GPIO-Zero.pdf)
 - [Traffic Lights](traffic-lights.md) [Ingelesez] - traffic lights, button and buzzer - can be used with a breadboard or with the Traffic HAT
 
-## Aurrekariak
+## Prestakunza
 
 Pi-stop-en ariketak jarraitzeko ez duzu ezer egin behar aurretik. 
 
