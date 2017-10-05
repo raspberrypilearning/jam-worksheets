@@ -1,9 +1,17 @@
 # Minecraft TNT
 
-## Variations
+## Variaciones
 
 - [Minecraft TNT](minecraft-tnt.md)
 
 ## Notes
 
-- Be careful with capitalisation in Python!
+- Cuidado con las mayusculas y las minusculas en Python!
+
+
+## Notas de traduccion
+
+Version: 2017/09/28
+
+Traductor:
+ - [Oier Echaniz](https://github.com/oiertwo)
