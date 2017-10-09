@@ -22,7 +22,7 @@
 
 1. Open the **Data** panel and click **Make a Variable**. Enter the variable name **red**, drag a **set red to 0** in, dock it under the previous block and set the value to **22**.
 
-1. Open the **More Blocks** panel and drag in a **set gpio to output high** block and dock it under the previous block.
+1. Open the **More Blocks** panel, drag in a **set gpio to output high** block and dock it under the previous block.
 
 1. Return to the **Data** panel and drag in a **red** variable block and place it inside the **set gpio** block. Your code should now look like this:
 
