@@ -18,13 +18,8 @@ Edit these on [GitHub](https://github.com/raspberrypilearning/jam-worksheets) an
 
 ## PDFs
 
-[![](images/minecraft.png)](jam-worksheets-pdf.zip)
-[![](images/random-sparkles.png)](jam-worksheets-pdf.zip)
-[![](images/sense-hat-sensors.png)](jam-worksheets-pdf.zip)
-[![](images/sense-hat-smile.png)](jam-worksheets-pdf.zip)
-[![](images/scratch1.png)](jam-worksheets-pdf.zip)
-[![](images/scratch2.png)](jam-worksheets-pdf.zip)
-[![](images/edublocks.png)](jam-worksheets-pdf.zip)
+8 worksheets available as PDF:
+
 [![](images/gpiozero.png)](jam-worksheets-pdf.zip)
 
 ## Links
