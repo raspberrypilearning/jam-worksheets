@@ -2,7 +2,7 @@
 
 ## Conectar la pi-stop
 
-1. Coge la pi-stop y colocalo en los pines GPIO de la Raspberry Pi como se muestra a continuación: 
+1. Coge la pi-stop y colócalo en los pines GPIO de la Raspberry Pi como se muestra a continuación: 
 
 | pi-stop   | GPIO pin |
 | --------- | :------: |
@@ -15,9 +15,9 @@
 
 ## Control de los LEDs
 
-1. Abre Python 3 desde el menu principal y abre un nuevo fichero.
+1. Abre Python 3 desde el menú principal y abre un nuevo fichero.
 
-1. Añade este codigo:
+1. Añade este código:
 
     ```python
     from gpiozero import LED
@@ -27,10 +27,10 @@
     red.blink()
     ```
 
-1. Guarda el programa y presiona **F5** para ejecutar tu codigo. La luz roja parpadeara constantemente.
+1. Guarda el programa y presiona **F5** para ejecutar tu código. La luz roja parpadeara constantemente.
 
 
-1. Ahora modifica el codigo para añadir las otras dos luces, las haremos parpadear a diferentes velocidades:
+1. Ahora modifica el código para añadir las otras dos luces, las haremos parpadear a diferentes velocidades:
 
 
     ```python
@@ -45,13 +45,13 @@
     green.blink(3, 3)
     ```
 
-1. Ejecuta el codigo otra vez y observa parpadear las tres luces a diferentes velocidades.
+1. Ejecuta el código otra vez y observa parpadear las tres luces a diferentes velocidades.
 
-1. Si un numero ms grande hace parpadear ms despacio, ¿que numero deberiamos de usar para un parpadeo más rapido? Intenta que alguna luz parpadee ms rapido.
+1. Si un numero ms grande hace parpadear ms despacio, ¿que numero deberiamos de usar para un parpadeo más rápido? Intenta que alguna luz parpadee más rápido.
 
 ## La secuencia del semáforo
 
-1. La función `on` te permite encender la luz. Puedes usar la funcion `sleep` para crear una pausa entre diferentes comandos. Prueba este codigo para encender las luces de manera secuencial:
+1. La función `on` te permite encender la luz. Puedes usar la funcion `sleep` para crear una pausa entre diferentes comandos. Prueba este código para encender las luces de manera secuencial:
 
     ```python
     from gpiozero import LED
@@ -69,7 +69,7 @@
     sleep(1)
     ```
 
-    Los controles ms importantes para los LEDs son `on`, `off`, `toggle` y `blink`.
+    Los controles más importantes para los LEDs son `on`, `off`, `toggle` y `blink`.
 
 1. Prueba a encender y apagar las luces en una secuencia:
 
@@ -104,13 +104,13 @@
         green.off()
     ```
 
-1. Ahora que sabes controlar las luces de manera individual, sabes crear pausas entre comandos, podrias crear una secuencia real de semaforo? La secuencia real es:
+1. Ahora que sabes controlar las luces de manera individual, sabes crear pausas entre comandos, podrías crear una secuencia real de semáforo? La secuencia real es:
 
-    - Luz verda
+    - Luz verde
     - Luz naranja
     - Luz roja
     - Luz verde
 
-Es importante pensar en el tiempo. Cuanto tiempo deberia de estar encendido cada luz?
+Es importante pensar en el tiempo. Cuanto tiempo debería de estar encendido cada luz?
 
-Una vez que ya has creado la secuencia real de semáforo, puedes probar en añadir un boton y un timbre (Buzzer) para hacer una version interactiva.
+Una vez que ya has creado la secuencia real de semáforo, puedes probar en añadir un botón y un timbre (Buzzer) para hacer una versión interactiva.
