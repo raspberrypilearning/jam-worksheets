@@ -2,11 +2,11 @@
 
 ## Minecraft mundua ezagutzen
 
-1. Ireki Minecraft Pi menu nagusitik. Hasi joko berri bat eta sordu mundu berri bat (new world).
+1. Ireki Minecraft Pi menu nagusitik. Hasi joko berri bat eta sortu mundu berri bat (new world).
 
-1. Munduan zear ibiltzeko erabili WASD teklak teklatuan. Erabili hutsunea behin salto egiteko, bi aldiz hegan egiteko.
+1. Munduan zehar ibiltzeko erabili WASD teklak teklatuan. Erabili hutsunea behin salto egiteko, bi aldiz hegan egiteko.
 
-1. Sakatu Tab teklatuan xaguaren kursorea ikusteko eta ireki Python 3 menu nagusitik.
+1. Sakatu Tab teklatuan saguaren kurtsorea ikusteko eta ireki Python 3 menu nagusitik.
 
 1. Mugitu leihoak minecraft eta Python-en lehioak osorik ikusi ahal dituzun arte. 
 
@@ -39,7 +39,7 @@
     mc.setBlock(x+1, y, z, 2)
     ```
 
-1. Orain belar bloke bat ikusi beharko zenduke zure inguruan. Saiatu berriz zenbakia aldatzen eta ikusi zein motatako blokea sortzen den.
+1. Orain belar bloke bat ikusi beharko zenuke zure inguruan. Saiatu berriz zenbakia aldatzen eta ikusi zein motatako blokea sortzen den.
 
 1. Saiatu `setBlock` jarri beharrean `setBlocks` jartzen 10x10x10 tamainako egitura bat sortzeko, bloke bakarra izan beharrean:
 
@@ -59,4 +59,4 @@ TNT-ak duen identifikazio zenbakia '46' da. Bi TNT mota daude: ez leherkorrak et
     mc.setBlocks(x+1, y+1, z+1, x+11, y+11, z+11, 46, 1)
     ```
 
-1. Joan TNT blokea sortu den lekura eta xaguaren eskuineko btaia erabiliz jo zure espatarekin blkea. Honek blokea aktibatuko du. Itxaron eta gozatu ikuskizunaz.
+1. Joan TNT blokea sortu den lekura eta saguaren eskuineko botoia erabiliz jo zure espatarekin blokea. Honek blokea aktibatuko du. Itxaron eta gozatu ikuskizunaz.
