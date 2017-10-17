@@ -2,7 +2,7 @@
 
 ## Variaciones
 
-- [pi-stop Semaforo](pi-stop-traffic-lights.md) - Semáforo, usinando pi-stop
+- [pi-stop Semáforo](pi-stop-traffic-lights.md) - Semáforo, usinando pi-stop
     - [PDF version](pdf/Controlling-a-traffic-lights-sequence-with-GPIO-Zero.pdf)
 - [Traffic Lights](traffic-lights.md) [Inglés]- traffic lights, button and buzzer - can be used with a breadboard or with the Traffic HAT
 
