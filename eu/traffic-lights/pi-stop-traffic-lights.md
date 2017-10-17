@@ -46,7 +46,7 @@
 
 1. Exekutatu kodea berriz ere eta orain hiru argiak ikusi beharko dituzu pizten eta itzaltzen, bakoitza abiadura ezberdinarekin.
 
-1. Zenbaki handiago batek argiak polikiago pizten eta itzaltzen badire, zer eragingo du hauek azkarrago aldatzea? Saiatu argiak azkarrago pizten eta itzaltzen.
+1. Zenbaki handiago batek argiak polikiago pizten eta itzaltzen badira, zer eragingo du hauek azkarrago aldatzea? Saiatu argiak azkarrago pizten eta itzaltzen.
 
 ## Semaforoaren ordena jarraitzen
 
@@ -112,4 +112,4 @@
 
 Denboraz gogoratu. Zenbat denbora egon behar da argi bakoitza piztuta?
 
-Semaforoen ordena programatzen bukatu duzunean, soinua eta pultsadorea gehitu ahal dituzu semaforo elkarreragile bat izateko.
+Semaforoen ordena programatzen bukatu duzunean, soinua eta sakagailua gehitu ahal dituzu semaforo elkarreragile bat izateko.
