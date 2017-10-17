@@ -9,7 +9,7 @@
 ## Prestakuntza
 
 - SenseHat erabili behar baduzu, konektatu zure Pi-ra
-- Trinket emuladorea erabili behar baduzu, `sense.clear()` executatu hasi haurretik:
+- Trinket emuladorea erabili behar baduzu, `sense.clear()` exekutatu hasi haurretik:
 
     ```python
     from sense_hat import SenseHat
