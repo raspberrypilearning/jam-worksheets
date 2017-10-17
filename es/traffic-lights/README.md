@@ -22,15 +22,15 @@ Si vas a usa las hojas de trabajo completas, necesitaras conectar los diferentes
 
 ## Notas
 
-- Cuidado con las mayusculas y las minusculas en Python!
-- Comprueba que los numeros de pines sean los correctos. 
-- Use a port label if you have one available:
-    - Buy one from http://rasp.io/portsplus/
-    - Print your own from https://github.com/splitbrain/rpibplusleaf
+- Cuidado con las mayúsculas y las minúsculas en Python!
+- Comprueba que los números de pines sean los correctos. 
+- En caso de tener usa una placa con los identificadores de los pines:
+    - Compra en http://rasp.io/portsplus/
+    - Imprime desde https://github.com/splitbrain/rpibplusleaf
 
-## Notas de traduccion
+## Notas de traducción
 
-Version: 2017/09/28
+Versión: 2017/09/28
 
 Traductor:
  - [Oier Echaniz](https://github.com/oiertwo)
