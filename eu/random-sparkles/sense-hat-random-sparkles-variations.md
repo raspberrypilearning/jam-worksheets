@@ -1,6 +1,6 @@
 # Sense HAT Ausazko Argi izpiak
 
-Ondorengo pausoak jarraitzeko Sense Hat hardwarea erabil dezaketu, edo Raspbianeko emuladorea edo webguneko emuladorea Trinket webgunean ere erabil daitezke.
+Ondorengo pausoak jarraitzeko Sense Hat hardwarea erabil dezakezue, edo Raspbianeko emuladorea edo webguneko emuladorea Trinket webgunean ere erabil daitezke.
 
 - Sense Hat erabili behar baduzu konektatu Raspberry Pi-ra hau piztu aurretik.
 - Trinket webguneko emuladorea erabili behar baduzu, ireki web nabigatzailea eta joan **trinket.io/sense-hat** webgunera.
@@ -45,7 +45,7 @@ Lehenengo urrats modura, ausazko zenbakiak guk pentsatuko ditugu eta `set_pixel`
     y = 5
     ```
 
-1. 0 eta 255 arteko hiru ausazko zenbakietan pentsatu, esleitu zenbakiak `r`, `g`, eta `b` aldagaileri:
+1. 0 eta 255 arteko hiru ausazko zenbakietan pentsatu, esleitu zenbakiak `r`, `g`, eta `b` aldagaieri:
 
     ```python
     r = 19
@@ -59,11 +59,11 @@ Lehenengo urrats modura, ausazko zenbakiak guk pentsatuko ditugu eta `set_pixel`
     sense.set_pixel(x, y, r, g, b)
     ```
 
-1. Exekutatu kodea **F5** saktuz (**Run** botoia Trinket webgunean). Pixel bat piztuta ikusi beharko zenuke.
+1. Exekutatu kodea **F5** sakatuz (**Run** botoia Trinket webgunean). Pixel bat piztuta ikusi beharko zenuke.
 
 1. Aukeratu beste ausazko zenbaki batzuk - aldatu zenbaki guztiak - eta exekutatu programa berriz. Beste pixel bat piztu da!
 
-## Auza sortzeko moduloa erabiltzen (Random)
+## Auza sortzeko modulua erabiltzen (Random)
 
 Orain arte ausazko zenbakiak sortu dituzu, baina ordenagailuari lan hau egiteko agindua eman ahal zaio. 
 
