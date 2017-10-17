@@ -2,9 +2,9 @@
 
 ## Aukerak
 
-- [pi-stop Traffic Lights](pi-stop-traffic-lights.md) - pi-stop ekin erabiltzeko.
+- [pi-stop Semaforoa](pi-stop-traffic-lights.md) - pi-stop ekin erabiltzeko.
     - [PDF version](pdf/Controlling-a-traffic-lights-sequence-with-GPIO-Zero.pdf)
-- [Traffic Lights](traffic-lights.md) [Ingelesez] - traffic lights, button and buzzer - can be used with a breadboard or with the Traffic HAT
+- [Traffic Lights](traffic-lights.md) [Ingelesez] - Semaforoa, botoia eta txirrina - breadborad edo pi-stop plaka batekin jarraitu daiteke tutoriala.
 
 ## Prestakunza
 
