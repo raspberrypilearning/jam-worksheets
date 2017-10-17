@@ -1,6 +1,6 @@
 # Hojas de ejercicios para Raspberry Jam 
 
-Coleccion de hojas de ejercicio para actividades cortas para las Raspberry Jam. Todos los recursos [CC BY-SA Raspberry Pi Foundation](https://github.com/raspberrypilearning/jam-worksheets/blob/master/LICENCE.md).
+Colección de hojas de ejercicio para actividades cortas para las Raspberry Jam. Todos los recursos [CC BY-SA Raspberry Pi Foundation](https://github.com/raspberrypilearning/jam-worksheets/blob/master/LICENCE.md).
 
 ## Contenido
 
