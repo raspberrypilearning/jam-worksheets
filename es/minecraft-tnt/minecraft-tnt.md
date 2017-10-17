@@ -2,17 +2,17 @@
 
 ## Entra al mundo de Minecraft 
 
-1. Abre Minecraft Pi desde el menu principal. Comienza la partida y crea un mundo nuevo.
+1. Abre Minecraft Pi desde el mení principal. Comienza la partida y crea un mundo nuevo.
 
-1. Camina por el mundo usando las teclas WASD del teclado. Usa el espacio para saltar, usalo dos veces para volar.
+1. Camina por el mundo usando las teclas WASD del teclado. Usa el espacio para saltar, úsalo dos veces para volar.
 
-1. Presiona Tab para hacer aparecer el cursor del raton, y abre Python 3 desde el menu principal.
+1. Presiona Tab para hacer aparecer el cursor del raton, y abre Python 3 desde el menú principal.
 
 1. Mueve las ventanas hasta que puedas ver comodamente las dos ventanas abiertas.
 
 ## Controlando Minecraft con Python
 
-1. Obre una nueva ventana de Python y añade el siguiente codigo:
+1. Obre una nueva ventana de Python y añade el siguiente código:
 
     ```python
     from mcpi.minecraft import Minecraft
@@ -22,7 +22,7 @@
     mc.postToChat("Hello world")
     ```
 
-1. Ejecuta el codigo usando `F5`. Deberias de ver una mensaje que dice "Hello world" en la ventana de Minecraft.
+1. Ejecuta el codigo usando `F5`. Deberías de ver una mensaje que dice "Hello world" en la ventana de Minecraft.
 
 1. Añade las siguientes lineas al codigo:
 
@@ -60,4 +60,4 @@ El ID para un bloque de TNT es el `46`. Existen dos tipos de TNT: TNT no explosi
     mc.setBlocks(x+1, y+1, z+1, x+11, y+11, z+11, 46, 1)
     ```
 
-1. Acercate al cubo de TNT y golpealo con la espada. Puedes usar la espada clickando el boton secundario del ratón. Esto activara el TNT. Observa y disfruta del espectaculo.
+1. Acércate al cubo de TNT y golpéalo con la espada. Puedes usar la espada haciendo click en el boton secundario del ratón. Esto activara el TNT. Observa y disfruta del espectáculo.
