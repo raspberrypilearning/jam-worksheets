@@ -1,12 +1,12 @@
 # Minecraft TNT
 
-## Variations
+## Aukerak
 
 - [Minecraft TNT](minecraft-tnt.md)
 
 ## Oharrak
 
-- Maiuskulak eta minuskulekin kontzu ibili Python erabiltzerakoan.
+- Maiuskulak eta minuskulekin kontuz ibili Python erabiltzerakoan.
 
 
 ## Itzulpen oharrak
