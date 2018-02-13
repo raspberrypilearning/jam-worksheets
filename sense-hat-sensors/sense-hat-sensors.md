@@ -9,7 +9,7 @@
     ```python
     >>> from sense_hat import SenseHat
     >>> sense = SenseHat()
-    >>> sense.show_message(“Hello world”)
+    >>> sense.show_message("Hello world")
     ```
 
     Press `Enter` after each line, and after the third line, the message should appear on the Sense HAT's display.
