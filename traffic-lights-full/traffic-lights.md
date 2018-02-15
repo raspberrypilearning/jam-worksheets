@@ -27,7 +27,7 @@
             led.off()
     ```
 
-1. Run your code with `F5`. Now when you press the button, the green LED will come on.
+1. Run your code with **F5**. Now when you press the button, the green LED will come on.
 
 1. Try creating three LEDs:
 
