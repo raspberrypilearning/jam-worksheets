@@ -85,7 +85,7 @@ Finally, for your most advanced project you're going to create a dance floor for
    
     ```ruby
     loop do
-    b = (ring :melow, :brick, :glass, :tnt, :lapis).tick
+    b = (ring :melon, :brick, :glass, :tnt, :lapis).tick
     mc_set_block b, x+rand_i(5), y-1, z+rand_i(5)
     end
     ```
@@ -96,7 +96,7 @@ Finally, for your most advanced project you're going to create a dance floor for
 
     ```ruby
     loop do
-    b = (ring :melow, :brick, :glass, :tnt, :lapis).tick
+    b = (ring :melon, :brick, :glass, :tnt, :lapis).tick
     mc_set_block b, x+rand_i(5), y-1, z+rand_i(5)
     
     play note: notes.tick
