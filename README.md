@@ -6,19 +6,18 @@ You can view these at [projects.raspberrypi.org/en/jam](https://projects.raspber
 
 ## Contents
 
-- [GPIO Music Box](gpio-music-box/README.md)
-- [Minecraft Beats](minecraft-beats/README.md)
-- [Minecraft TNT](minecraft-tnt/README.md)
-- [Push button camera](push-button-camera/README.md)
-- [Random Sparkles](random-sparkles/README.md)
-- [Sense HAT Sensors](sense-hat-sensors/README.md)
-- [Traffic Lights](traffic-lights/README.md) (lights only)
-- [Traffic Lights full](traffic-lights-full/README.md) (plus button and buzzer)
-- [Traffic Lights controller](traffic-lights-controller/README.md) (guizero)
+- Minecraft TNT
+- Sense HAT Random Sparkles
+- Sense HAT Sensors
+- Sense HAT Smile
+- Traffic Lights EduBlocks
+- Traffic Lights Python
+- Traffic Lights Scratch 1.4
+- Traffic Lights Scratch 2
 
 ## PDFs
 
-8 worksheets available as PDF:
+Worksheets available as PDF:
 
 [![](images/gpiozero.png)](http://rpf.io/jamwspdf)
 
