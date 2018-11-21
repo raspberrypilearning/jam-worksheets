@@ -1,8 +1,8 @@
 # Raspberry Jam worksheets
 
-Short worksheets for small activities for use at Raspberry Jams. All resources [CC BY-SA Raspberry Pi Foundation](https://github.com/raspberrypilearning/jam-worksheets/blob/master/LICENCE.md).
+Printable PDF versions of short worksheets for small activities for use at Raspberry Jams. All resources [CC BY-SA Raspberry Pi Foundation](https://github.com/raspberrypilearning/jam-worksheets/blob/master/LICENCE.md).
 
-Edit these on [GitHub](https://github.com/raspberrypilearning/jam-worksheets) and browse them at [raspberrypi.org/learning/jam-worksheets](https://www.raspberrypi.org/learning/jam-worksheets/).
+You can view these at [projects.raspberrypi.org/en/jam](https://projects.raspberrypi.org/en/jam/jam). Other languages are available, as well as English. You can [help to translate them](http://rpf.io/translatejam).
 
 ## Contents
 
@@ -20,9 +20,10 @@ Edit these on [GitHub](https://github.com/raspberrypilearning/jam-worksheets) an
 
 8 worksheets available as PDF:
 
-[![](images/gpiozero.png)](jam-worksheets-pdf.zip)
+[![](images/gpiozero.png)](http://rpf.io/jamwspdf)
 
 ## Links
 
-- [Raspberry Pi resources](https://www.raspberrypi.org/resources/)
+- [Raspberry Pi projects](https://projects.raspberrypi.org/)
+- [Raspberry Jam projects](https://projects.raspberrypi.org/en/jam/jam)
 - [Raspberry Pi Learning on GitHub](https://github.com/raspberrypilearning)
